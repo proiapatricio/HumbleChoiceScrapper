@@ -1,0 +1,884 @@
+﻿{
+  "productIsChoiceless": true,
+  "userOptions": {
+    "is_logged_in": false,
+    "logout_url": "/logout?goto=/membership/july-2024&qs="
+  },
+  "showSingleSignOn": true,
+  "payEarlyOptions": {
+    "activeContentStart|datetime": "2024-08-06T17:00:00",
+    "planOptions": {},
+    "productMachineName": "august_2024_choice"
+  },
+  "debug": false,
+  "ipInChina": false,
+  "isEuCountry": false,
+  "contentChoiceOptions": {
+    "contentChoiceData": {
+      "display_order": [
+        "aplaguetale_requiem",
+        "ghostrunner2",
+        "starshiptroopers_terrancommand",
+        "stickybusiness",
+        "zoeti",
+        "figment2_creedvalley",
+        "hereticsfork",
+        "hyperviolent"
+      ],
+      "extras": [
+        {
+          "human_name": "25% Off Raising Hell DLC Coupon (Starship Troopers: Terran Command)",
+          "icon_path": "https://hb.imgix.net/3b9b415976a4444ffa0ad2984305327eaa00f3dd.png?auto=compress,format&s=e2cd972441a16abe15af533fb9c12cac",
+          "machine_name": "25percentoff_starshiptroopers_terrancommand_raisinghell_choicecoupon_july2024",
+          "class": "SubProduct",
+          "types": []
+        },
+        {
+          "human_name": "85% Off A Plague Tale: Innocence Coupon",
+          "icon_path": "https://hb.imgix.net/602084755aa23505fd6458702273368496d8940d.png?auto=compress,format&s=8a56cd4062cf1f31e0a9d3029227ea98",
+          "machine_name": "85percentoff_aplaguetale_innocence_choicecoupon_july2024",
+          "class": "SubProduct",
+          "types": []
+        },
+        {
+          "human_name": "Saturnalia - 66% Off",
+          "icon_path": "https://hb.imgix.net/54f385a621a3a323bf86a79bf34891ea47fa7f25.png?auto=compress,format&s=c479f9b7c437bbc820e0fb0dc1e4dff8",
+          "machine_name": "66percentoff_saturnalia_choicecoupon_july2024",
+          "class": "SubProduct",
+          "types": []
+        }
+      ],
+      "game_data": {
+        "stickybusiness": {
+          "recommendation_copy_dict": {
+            "copy": "<em>Sticky Business</em> is a delightful simulation game where you run a cozy sticker shop, crafting unique designs to attract and delight a diverse clientele. Combine elements like cat motifs, witchy themes, or whimsical faces to create your sticker line, and enhance your designs with sparkles or holo effects to captivate specific clientele. As you manage your shop, pack orders, and interact with buyers, you'll uncover their personal stories. The game allows for extensive customization, offering upgrades to expand your artistic arsenal and add goodies or custom packaging to enhance customer satisfaction. Ready to create some sticker magic and see what stories unfold?"
+          },
+          "delivery_methods": [
+            "steam"
+          ],
+          "description": "<strong class=\"hmb\">Create, pack and sell your own unique sticker creations! </strong> <br><br>You want a collection of cat stickers? A witch-themed shop? Or add a derpy face to all of your creations? <br><br><video autoplay=\"autoplay\" loop=\"loop\" muted=\"muted\" preload=\"auto\" style=\"width: 601px; height: 338px;\">\n <source src=\"https://hb.imgix.net/63073479a32302466dd3f2cf8f60bdb93e8cd4e4.gif?auto=format&amp;fm=mp4&amp;s=477cb91e3c918c1aeaaa94ed5343a6df\" type=\"video/mp4\">\n</video> <br><br>Combine dozens of elements to create your own collection and sell them to like-minded people. Different stickers attract different customers! You can add some sparkles or holo effects to make them even more special! <br><br><video autoplay=\"autoplay\" loop=\"loop\" muted=\"muted\" preload=\"auto\" style=\"width: 601px; height: 338px;\">\n <source src=\"https://hb.imgix.net/16e4a572a28629c0d1f54c28a1247b4ea88d67fe.gif?auto=format&amp;fm=mp4&amp;s=d000cc2c7887d59cbeb6908d63a8212c\" type=\"video/mp4\">\n</video> <br><br>Pack orders and hear more about your customers' stories every time they buy stickers! <br><br><video autoplay=\"autoplay\" loop=\"loop\" muted=\"muted\" preload=\"auto\" style=\"width: 600px; height: 338px;\">\n <source src=\"https://hb.imgix.net/df36190da7a378facf81c4a7478f4ed7c706f9e4.gif?auto=format&amp;fm=mp4&amp;s=246ca9b2126e0305f764a604f9116fde\" type=\"video/mp4\">\n</video> <strong class=\"hmb\"> <br><br>Features </strong> <br>\n<ul>\n<li>Get creative and build the cutest stickers out of thousands of possible combinations!</li>\n<li>Optimize your sticker production by building the perfect sticker sheets and make as much use of your resources as possible!</li>\n<li>Pack orders for your customers and hear about their lives!</li>\n<li>Buy upgrades to get more sticker graphics and effect foils to make your shop even more exciting!</li>\n<li>Add goodies and custom packaging to your orders to make your customers even more happy!</li>\n<li><strong> For all you content creators out there: <i>Sticky Business</i> offers a Twitch integration, which allows your viewers to become customers in the game, setting up orders and letting your creativity run on peak level!</strong></li>\n</ul>",
+          "title": "Sticky Business",
+          "carousel_content": {
+            "youtube-link": [
+              "lXD_svSdJ8w"
+            ],
+            "thumbnails": [
+              "https://hb.imgix.net/ad0f78145a9d999f407c29ccd5ef0012b08bb03f.jpg?auto=compress,format&fit=crop&h=122&w=218&s=cd8953c28f3740f4a4dd5b91768c565c",
+              "https://hb.imgix.net/c985df6d251d346c4e79a81dfd9edfe8c8c15c60.jpg?auto=compress,format&fit=crop&h=122&w=218&s=1c67851464b00cc83a9a72b31edb1193",
+              "https://hb.imgix.net/f609e979d9a6afa6fd1a4450ffda31833674a8a8.jpg?auto=compress,format&fit=crop&h=122&w=218&s=67d7ddf55ee69d7cbfa53463d4436c9d",
+              "https://hb.imgix.net/920be743118e9647263a0fcde95456f7dd7d9ecc.jpg?auto=compress,format&fit=crop&h=122&w=218&s=ccd287e22ef1230528edf2711a1da76b",
+              "https://hb.imgix.net/9b03825a13ed1fb4c6c1172b4eeca4703dd599b3.jpg?auto=compress,format&fit=crop&h=122&w=218&s=a17ddbbec6efa66c0df072db6bd04101",
+              "https://hb.imgix.net/e9331824e1c9d16b7b441bfe383ad9ed4236dea3.jpg?auto=compress,format&fit=crop&h=122&w=218&s=5fee65458298fb5b03a87082c36c74fa",
+              "https://hb.imgix.net/80bf963274bbf9589f29baec826ea96e6e1e78cd.jpg?auto=compress,format&fit=crop&h=122&w=218&s=89d327609da3fe3082ee23a745547446",
+              "https://hb.imgix.net/abde576d2040fa7e874682a9e100d916aa8af542.jpg?auto=compress,format&fit=crop&h=122&w=218&s=20f004d92c762c1632433e7bf1421470",
+              "https://hb.imgix.net/7f13158a916057a3b4557889f83f8af04da65b0d.jpg?auto=compress,format&fit=crop&h=122&w=218&s=8b1c55f0be84b01504cd7dfbab8b412c",
+              "https://hb.imgix.net/6513055edf5cefafcc7b76316d69a595ff0bd78e.jpg?auto=compress,format&fit=crop&h=122&w=218&s=dd1913835cbef53a400da20b6e46473c",
+              "https://hb.imgix.net/6669b9127573d84d441589f80a0a6fe763d49797.jpg?auto=compress,format&fit=crop&h=122&w=218&s=6a7047db5c264efdd9f942de840ec0be",
+              "https://hb.imgix.net/a4bb3ecf6893770cdab73afd315728d43840d94b.jpg?auto=compress,format&fit=crop&h=122&w=218&s=874f840b698680000097ad5701d7164d",
+              "https://hb.imgix.net/3e408ce2c7d71e419391cad00d61f459f6da7f0c.jpg?auto=compress,format&fit=crop&h=122&w=218&s=ba2c6b02de3e36c61626edad34cd4871"
+            ],
+            "screenshot": [
+              "https://hb.imgix.net/ad0f78145a9d999f407c29ccd5ef0012b08bb03f.jpg?auto=compress,format&fit=crop&h=425&w=741&s=01378d98fe046ce5e1c2813cdfd590d8",
+              "https://hb.imgix.net/c985df6d251d346c4e79a81dfd9edfe8c8c15c60.jpg?auto=compress,format&fit=crop&h=425&w=741&s=891c1c81ccfac8438f6c313ec92d4efa",
+              "https://hb.imgix.net/f609e979d9a6afa6fd1a4450ffda31833674a8a8.jpg?auto=compress,format&fit=crop&h=425&w=741&s=f7198b387f584e4a9a8b48125cf7bfab",
+              "https://hb.imgix.net/920be743118e9647263a0fcde95456f7dd7d9ecc.jpg?auto=compress,format&fit=crop&h=425&w=741&s=a9d45293fb2850478839897557d09ae9",
+              "https://hb.imgix.net/9b03825a13ed1fb4c6c1172b4eeca4703dd599b3.jpg?auto=compress,format&fit=crop&h=425&w=741&s=496670dbdf1be70c6fc1f3e28d1f652d",
+              "https://hb.imgix.net/e9331824e1c9d16b7b441bfe383ad9ed4236dea3.jpg?auto=compress,format&fit=crop&h=425&w=741&s=7f368b16c06e574b0a4717e41e99ee31",
+              "https://hb.imgix.net/80bf963274bbf9589f29baec826ea96e6e1e78cd.jpg?auto=compress,format&fit=crop&h=425&w=741&s=7b57255fc11f3ba61fedbb097afbc1cf",
+              "https://hb.imgix.net/abde576d2040fa7e874682a9e100d916aa8af542.jpg?auto=compress,format&fit=crop&h=425&w=741&s=038a41d11bf4683dfc80901cc852050b",
+              "https://hb.imgix.net/7f13158a916057a3b4557889f83f8af04da65b0d.jpg?auto=compress,format&fit=crop&h=425&w=741&s=0380a6c962b1ae4b7934d4d028942082",
+              "https://hb.imgix.net/6513055edf5cefafcc7b76316d69a595ff0bd78e.jpg?auto=compress,format&fit=crop&h=425&w=741&s=12979c4f517c3ad81095434ae8353bd8",
+              "https://hb.imgix.net/6669b9127573d84d441589f80a0a6fe763d49797.jpg?auto=compress,format&fit=crop&h=425&w=741&s=babc47ea618a00c32056966d7a4d6187",
+              "https://hb.imgix.net/a4bb3ecf6893770cdab73afd315728d43840d94b.jpg?auto=compress,format&fit=crop&h=425&w=741&s=f6cb3cf5384236c29a7a6618499cd2a5",
+              "https://hb.imgix.net/3e408ce2c7d71e419391cad00d61f459f6da7f0c.jpg?auto=compress,format&fit=crop&h=425&w=741&s=a80acf13de144ee41af9f6381f114fe2"
+            ]
+          },
+          "image": "https://hb.imgix.net/c0c01e7e8333fb04ea77b3eb6608ce3d93176c4d.jpg?auto=compress,format&fit=clip&h=383&w=667&s=9df1db4b42fef1afba20f8d1237a8136",
+          "display_item_machine_name": "stickybusiness",
+          "tpkds": [
+            {
+              "machine_name": "stickybusiness_choice_steam",
+              "custom_instructions_html": "<div style=\"text-align:center;\"><p><span style=\"color: #1695df;\">Complete the full redeem process to have instant and lifetime access to your game</span></p></div>",
+              "show_custom_instructions_in_user_libraries": false,
+              "key_type": "steam",
+              "visible": true,
+              "sold_out": false,
+              "is_partial_gift": false,
+              "display_separately": false,
+              "steam_app_id": 2303350,
+              "exclusive_countries": [],
+              "class": "steambutton",
+              "num_days_until_expired": -1,
+              "gamekey": null,
+              "disallowed_countries": [],
+              "direct_redeem": false,
+              "instructions_html": "<a href='https://support.humblebundle.com/hc/articles/204008710-How-To-Redeem-Steam-Keys' target='_blank'>Steam Instructions</a>",
+              "key_type_human_name": "Steam",
+              "human_name": "Sticky Business",
+              "preinstruction_text": "Copy this key into the Steam client, or click Redeem to redeem in-browser.",
+              "auto_expand": true,
+              "is_expired": false,
+              "partial_gift_enabled": true,
+              "disclaimer": "Steam will not provide extra giftable copies of games you already own."
+            }
+          ],
+          "user_rating": {
+            "steam_percent|decimal": 0.97,
+            "display_user_ratings": "steam_overall",
+            "review_text": "overwhelmingly_positive",
+            "steam_count": 3652
+          },
+          "platforms": [
+            "mac",
+            "windows"
+          ],
+          "more_information": null,
+          "msrp|money": {
+            "currency": "USD",
+            "amount": 9.99
+          },
+          "developers": [
+            "Spellgarden Games/Assemble Entertainment"
+          ],
+          "system_requirements": "<b>Minimum:</b><br><br><b><u>Windows</u></b><br>Requires a 64-bit processor and operating system<br><strong>OS:</strong> Windows 10<br><strong>Processor:</strong> Intel i3 Dual Core<br><strong>Memory:</strong> 4 GB RAM<br><strong>Graphics:</strong> Intel HD 3000<br><strong>Storage:</strong> 500 MB available space<br><br><b><u>Mac</u></b><br><strong>OS:</strong> mac OS Catalina or higher<br><strong>Processor:</strong> Intel i3 Dual Core<br><strong>Memory:</strong> 4 GB RAM<br><strong>Graphics:</strong> Intel HD Graphics 3000<br><strong>Storage:</strong> 500 MB available space<br><br><b>Recommended:</b><br><br><b><u>Windows</u></b><br>Requires a 64-bit processor and operating system<br><strong>OS:</strong> Windows 10<br><strong>Processor:</strong> Intel i5 Quad Core<br><strong>Memory:</strong> 4 GB RAM<br><strong>Graphics:</strong> Intel Iris or higher<br><strong>Storage:</strong> 500 MB available space<br><br><b><u>Mac</u></b><br><strong>OS:</strong> mac OS Catalina or higher<br><strong>Processor:</strong> Apple M1 or higher<br><strong>Memory:</strong> 4 GB RAM<br><strong>Graphics:</strong> Apple M1<br><strong>Storage:</strong> 500 MB available space<br><br><b>Supported Languages:</b> English, French, German, Japanese, Korean, Portuguese - Brazil, Simplified Chinese, Traditional Chinese, Spanish - Spain",
+          "genres": [
+            "Simulation"
+          ]
+        },
+        "aplaguetale_requiem": {
+          "recommendation_copy_dict": {
+            "copy": "Journey into a dark and gripping rendition of medieval France in <em>Plague Tale: Requiem</em>. Follow siblings Amicia and Hugo as they navigate a land devastated by war and the Black Death. With Hugo's mysterious powers growing, they must evade the ruthless agents of the Inquisition and survive against swarms of ravenous vermin. This heart-wrenching tale of survival tests your wits and courage as you solve intricate puzzles, engage in intense combat, and forge unexpected alliances. In a land where hope seems lost, uncover the strength of family and the resilience of the human spirit amidst the most harrowing depths of despair."
+          },
+          "delivery_methods": [
+            "steam"
+          ],
+          "description": "<img height=\"120\" src=\"https://hb.imgix.net/466187a258826eee1008bf340f85b068c0360137.png?auto=compress,format&s=fa40e651fe7cd5ec25b1fba98d0494f1\" width=\"616\">\n<br>\n<br>\nFar across the sea, an island calls…\n<br>\nEmbark on a heartrending journey into a brutal, breathtaking world twisted by supernatural forces.\n<br>\n<br>\nAfter escaping their devastated homeland, Amicia and Hugo travel far south, to new regions and vibrant cities. There, they attempt to start a new life and control Hugo’s curse.\n<br>\n<br>\nBut, when Hugo’s powers reawaken, death and destruction return in a flood of devouring rats. Forced to flee once more, the siblings place their hopes in a prophesized island that may hold the key to saving Hugo.\n<br>\n<br>\nDiscover the cost of saving those you love in a desperate struggle for survival. Strike from the shadows or unleash hell, overcoming foes and challenges with a variety of weapons, tools and unearthly powers.\n<br>\n<br>\n●\tSequel to the award-winning adventure A Plague Tale: Innocence\n<br>\n●\tA spectacular grounded tale twisted by supernatural forces\n<br>\n●\tUse a variety of tools, sneak, fight, or unleash hell and rats\n<br>\n●\tStunning visuals combine with an enthralling score\n",
+          "title": "A Plague Tale: Requiem",
+          "carousel_content": {
+            "youtube-link": [
+              "fDjGDcUR-DM"
+            ],
+            "thumbnails": [
+              "https://hb.imgix.net/e6c1359da97d9721246103e321ee49419947c9ee.png?auto=compress,format&fit=crop&h=122&w=218&s=61972e457cb09ea19c1b44094e8bee4b",
+              "https://hb.imgix.net/5dde15c7b7707e38882dd096cb88f03ec4f383a2.png?auto=compress,format&fit=crop&h=122&w=218&s=af3d36727ffdc6fec67c62682f00f069",
+              "https://hb.imgix.net/0780ecae23d31e6d701cf72e3b93fefcf043bd5d.png?auto=compress,format&fit=crop&h=122&w=218&s=5a71eb8c4872bfc3c151ec39cd11000c",
+              "https://hb.imgix.net/d73aa5bddb837de5c0e671f439155067c4763492.png?auto=compress,format&fit=crop&h=122&w=218&s=cb53c55fcc9f8ecdd370d9d124fe86c3",
+              "https://hb.imgix.net/c32ddf6be4555fc94e8589c8887a42a0c5bad091.png?auto=compress,format&fit=crop&h=122&w=218&s=ebab5fffdbc7fa127aef0bd2c5e8531e",
+              "https://hb.imgix.net/fa75195fcf48ff14dad388b9330fa2378e5d0d29.png?auto=compress,format&fit=crop&h=122&w=218&s=9056e6326d36b6a2fa0a3f9357e11fde",
+              "https://hb.imgix.net/e1c003f073ee734011c8dc1184e22f2a8af8ca87.png?auto=compress,format&fit=crop&h=122&w=218&s=5281ffae0ed0768f33ca3610732b9bf8",
+              "https://hb.imgix.net/1a8e02dfb76aad9cc5ce05039c7164e384b50919.png?auto=compress,format&fit=crop&h=122&w=218&s=b12c3c261673b95abffe8202ff484786",
+              "https://hb.imgix.net/70fe4261ef0d17e43aa99280c58ee71889049b49.png?auto=compress,format&fit=crop&h=122&w=218&s=04c911826163ad4b301859910ecb6ac9"
+            ],
+            "screenshot": [
+              "https://hb.imgix.net/e6c1359da97d9721246103e321ee49419947c9ee.png?auto=compress,format&fit=crop&h=425&w=741&s=cb068cf1f11c6a1f79d3a8b27cd51d25",
+              "https://hb.imgix.net/5dde15c7b7707e38882dd096cb88f03ec4f383a2.png?auto=compress,format&fit=crop&h=425&w=741&s=7f40324afb177bd6517fa91d2206d5bb",
+              "https://hb.imgix.net/0780ecae23d31e6d701cf72e3b93fefcf043bd5d.png?auto=compress,format&fit=crop&h=425&w=741&s=0c3ee80d9cf6717eb959090a45991c9b",
+              "https://hb.imgix.net/d73aa5bddb837de5c0e671f439155067c4763492.png?auto=compress,format&fit=crop&h=425&w=741&s=c3db1ba86eba07784c92b8d9430dac1f",
+              "https://hb.imgix.net/c32ddf6be4555fc94e8589c8887a42a0c5bad091.png?auto=compress,format&fit=crop&h=425&w=741&s=032d3ae2fd268f4891cbb6e82c3831f1",
+              "https://hb.imgix.net/fa75195fcf48ff14dad388b9330fa2378e5d0d29.png?auto=compress,format&fit=crop&h=425&w=741&s=82326a8fd41215fdfe4b2e91738aaeb0",
+              "https://hb.imgix.net/e1c003f073ee734011c8dc1184e22f2a8af8ca87.png?auto=compress,format&fit=crop&h=425&w=741&s=46de1c77f24ade20444c3baa4b40f8e4",
+              "https://hb.imgix.net/1a8e02dfb76aad9cc5ce05039c7164e384b50919.png?auto=compress,format&fit=crop&h=425&w=741&s=e0b24c886079e4e567363ce51b03aff1",
+              "https://hb.imgix.net/70fe4261ef0d17e43aa99280c58ee71889049b49.png?auto=compress,format&fit=crop&h=425&w=741&s=f23670a50fccaaf5bb9831890df59760"
+            ]
+          },
+          "image": "https://hb.imgix.net/bdde7926713204647f8c913d88779fb892d1c99f.jpg?auto=compress,format&fit=clip&h=383&w=667&s=cdd3630971267a2547e9559b4fa129ad",
+          "display_item_machine_name": "aplaguetale_requiem",
+          "tpkds": [
+            {
+              "machine_name": "aplaguetale_requiem_choice_steam",
+              "custom_instructions_html": "<div style=\"text-align:center;\"><p><span style=\"color: #1695df;\">Complete the full redeem process to have instant and lifetime access to your game</span></p></div>",
+              "show_custom_instructions_in_user_libraries": false,
+              "key_type": "steam",
+              "visible": true,
+              "sold_out": false,
+              "is_partial_gift": false,
+              "display_separately": false,
+              "steam_app_id": 1182900,
+              "exclusive_countries": [],
+              "class": "steambutton",
+              "num_days_until_expired": -1,
+              "gamekey": null,
+              "disallowed_countries": [],
+              "direct_redeem": false,
+              "instructions_html": "<a href='https://support.humblebundle.com/hc/articles/204008710-How-To-Redeem-Steam-Keys' target='_blank'>Steam Instructions</a>",
+              "key_type_human_name": "Steam",
+              "human_name": "Plague Tale: Requiem",
+              "preinstruction_text": "Copy this key into the Steam client, or click Redeem to redeem in-browser.",
+              "auto_expand": false,
+              "is_expired": false,
+              "partial_gift_enabled": true,
+              "disclaimer": "Steam will not provide extra giftable copies of games you already own."
+            }
+          ],
+          "user_rating": {
+            "steam_percent|decimal": 0.9,
+            "display_user_ratings": "steam_overall",
+            "review_text": "very_positive",
+            "steam_count": 12772
+          },
+          "platforms": [
+            "windows"
+          ],
+          "more_information": null,
+          "msrp|money": {
+            "currency": "USD",
+            "amount": 49.99
+          },
+          "developers": [
+            "Asobo Studio/Focus Entertainment"
+          ],
+          "system_requirements": "<b>Minimum:</b><br><br><b><u>Windows</u></b><br>Requires a 64-bit processor and operating system<br><strong>OS:</strong> Windows 10 (20H1 64 bits)<br><strong>Processor:</strong> Intel Core i5-4690K (3.5 GHz)/AMD FX-8300 (3.3 GHz)<br><strong>Memory:</strong> 16 GB RAM<br><strong>Graphics:</strong> 4 GB, GeForce GTX 970/Radeon RX 590<br><strong>DirectX:</strong> Version 12<br><strong>Storage:</strong> 55 GB available space<br><strong>Additional Notes:</strong> 30 FPS, 1920x1080 in low. DirectX 12 Feature Level 12 and Shader Model 6.0 are needed.<br><br><b>Recommended:</b><br><br><b><u>Windows</u></b><br>Requires a 64-bit processor and operating system<br><strong>OS:</strong> Windows 10 (20H1 64 bits)<br><strong>Processor:</strong> Intel Core i7-8700K (3.7 GHz) / AMD Ryzen 5 3600 (3.6 GHz)<br><strong>Memory:</strong> 16 GB RAM<br><strong>Graphics:</strong> 8 GB, GeForce RTX 3070/Radeon RX 6800 XT<br><strong>DirectX:</strong> Version 12<br><strong>Storage:</strong> 55 GB available space<br><strong>Additional Notes:</strong> 60 FPS, 1920x1080 in ultra. SSD storage is recommended.<br><br><b>Supported Languages:</b> English, French, Italian, German, Spanish - Spain, Simplified Chinese, Traditional Chinese, Spanish - Latin America, Polish, Portuguese - Brazil, Russian, Czech, Arabic, Korean, Japanese, Ukrainian",
+          "genres": [
+            "Action",
+            "Adventure"
+          ]
+        },
+        "starshiptroopers_terrancommand": {
+          "recommendation_copy_dict": {
+            "copy": "Take command of the mighty Mobile Infantry in <em>Starship Troopers: Terran Command</em>, a real-time strategy game set in the iconic universe of Robert A. Heinlein's classic novel. Lead squads of troopers against the relentless Arachnid threat on the distant planet Kwalasha. Engage in tactical combat across varied terrain, from urban environments to treacherous wilderness, and manage your forces carefully—once a trooper falls, they're gone for good. Deploy an arsenal of weapons, from rifles to rocket launchers, and call in special units like snipers and engineers. Are you ready to do your part? Remember, service guarantees citizenship!"
+          },
+          "delivery_methods": [
+            "steam"
+          ],
+          "description": "<img height=\"73\" src=\"https://hb.imgix.net/745e1f770f1ee6e9fd18f4b1a4bac36d5b497600.png?auto=compress,format&s=2ea2153a6160d04d596a4f0e3420bb01\" width=\"624\">\n<br>\n<br>\n<video autoplay=\"autoplay\" loop=\"loop\" muted=\"muted\" preload=\"auto\" style=\"width: 624px; height: 300px;\">\n <source src=\"https://hb.imgix.net/a46caf5c8e83677015bb6dd5b6345a9885c81441.mp4?auto=compress,format&s=4545d9a0bce84993d80f32ad6a18be3b\" type=\"video/mp4\">\n</video>\n<br>\nThe population of the harsh desert planet Kwalasha needs our help. Their peaceful lives, working in the mining industry, have been disturbed by a threat that they cannot face alone: the Arachnids. Under Colonel Hawthorne’s command, the Mobile Infantry will take back control of the planet and smash everything that has more than two legs. Enlist in this exciting military campaign, meet inspiring characters, visit amazing locations and do your part in the heroic war against the Bug!\n<br>\n<br>\n<img height=\"73\" src=\"https://hb.imgix.net/1b8baa1a97b65bdab8fd545e61a9d18c84a5bb75.png?auto=compress,format&s=4b84f93e2183a70180a1f8afc5dc017e\" width=\"624\">\n<br>\n<br>\n<video autoplay=\"autoplay\" loop=\"loop\" muted=\"muted\" preload=\"auto\" style=\"width: 624px; height: 300px;\">\n <source src=\"https://hb.imgix.net/52e943bb2f30f5e9979289adeb3a9a1b028bf0ec.mp4?auto=compress,format&s=4d41f336f3cfed86c1149bf2ec93b9a8\" type=\"video/mp4\">\n</video>\n<br>\nThe Arachnids may have virtually limitless numbers, but they lack the thorough tactical training that the Mobile Infantry enjoys. Position your units in advantageous choke points or on higher elevations. Be wary, however, that battle mechanics such as True Line of Sight and True Line of Fire may limit your field of fire and allow the treacherous Bugs to lay in ambush.\n<br>\n<br>\n<img height=\"73\" src=\"https://hb.imgix.net/0292940d337b5398cdcf76181bacbbe787260f0a.png?auto=compress,format&s=b629680ad57f90209353fa8ebaea92f9\" width=\"624\">\n<br>\n<br>\n<video autoplay=\"autoplay\" loop=\"loop\" muted=\"muted\" preload=\"auto\" style=\"width: 624px; height: 300px;\">\n <source src=\"https://hb.imgix.net/d90276527ad6a539b8bd1c6a89194152268b37a2.gif?auto=format&fm=mp4&s=5c540654b42da74fbd8a525a14038dc5\" type=\"video/mp4\">\n</video>\n<br>\nOptimize your army by choosing from a wide range of specialized unit types, each with its own strengths, weaknesses and set of unlockable elite abilities. Rifle Troopers can use their shotgun ability to hold back large numbers of Arachnids, M11 Marauders bipeds can unleash a withering mortar barrage and the Fleet Liaison can call down dropships with reinforcements or direct an airstrike to wipe out whole swaths of enemies.\n<br>\n<br>\n<img height=\"73\" src=\"https://hb.imgix.net/b44e8d4d4af1c3e2db999e86a31524d3b663d335.png?auto=compress,format&s=9e7a1b9d83428598e90a1c84a644d7b0\" width=\"624\">\n<br>\n<br>\n<video autoplay=\"autoplay\" loop=\"loop\" muted=\"muted\" preload=\"auto\" style=\"width: 624px; height: 300px;\">\n <source src=\"https://hb.imgix.net/99dee67c3fb46ef9cc95755c3c940ce36d5eaca9.mp4?auto=compress,format&s=9b515d3dddbe1eadcbab7fb71afd99c9\" type=\"video/mp4\">\n</video>\n<br>\nThe Bug infestation is rooted in elaborate underground hives. These present a unique challenge that demands a delicate balance between aggression and defense. Beware of the numerous tunnel openings, from which hordes of Arachnids can emerge.\n<br>\nTo eradicate the Bug problem for good, their nests must be eradicated!\n",
+          "title": "Starship Troopers: Terran Command",
+          "carousel_content": {
+            "youtube-link": [
+              "i2NFFLpLwx0",
+              "E-7HjvkLI10",
+              "EnJ1ycOEAxw",
+              "pz_CKhycqN4"
+            ],
+            "thumbnails": [
+              "https://hb.imgix.net/d8dfeb8f3618049c36eb91a0c2a7b076408311c7.jpg?auto=compress,format&fit=crop&h=122&w=218&s=caddfe6c4bcfdff20f70ba1b4a457f11",
+              "https://hb.imgix.net/121b95254ca75ae6d7913ba1256327d818a062f1.jpg?auto=compress,format&fit=crop&h=122&w=218&s=538f16ede3994ff0aeb5aa91aef5367a",
+              "https://hb.imgix.net/e648679ffe1e85921164de56146d6eb5ce1a89d0.jpg?auto=compress,format&fit=crop&h=122&w=218&s=29971ca5e324b3d0a03afd5bfb2b65af",
+              "https://hb.imgix.net/ffd5bd8aed05d1922006af9c2effea61ff3ec3d8.jpg?auto=compress,format&fit=crop&h=122&w=218&s=09f1e0a6662bbd5fa70e4c740594346f",
+              "https://hb.imgix.net/303ee568cba7ebb83d1ea1485e3d496d77b7e557.jpg?auto=compress,format&fit=crop&h=122&w=218&s=5ada4b92646a4453f1723507ee2ffdc3",
+              "https://hb.imgix.net/9f1bcde55fd1431ca2dade59136df04650e58e08.jpg?auto=compress,format&fit=crop&h=122&w=218&s=41f01ab482e60a499faeab62dd6beb4a",
+              "https://hb.imgix.net/09c4410b255a0fa06b1203c22d28d92e7a701735.jpg?auto=compress,format&fit=crop&h=122&w=218&s=c84330d41d254506af140eaf3755aafe",
+              "https://hb.imgix.net/84f90ab897b5a86b71e1453c72297899494877ea.jpg?auto=compress,format&fit=crop&h=122&w=218&s=ded8dbc7ddb2513b8872d26aa7f2c438",
+              "https://hb.imgix.net/a9a53de10d3dd5f9b848287e4b7fc055c574520d.jpg?auto=compress,format&fit=crop&h=122&w=218&s=a5e04a2cf09eb3acf1c2ab9f6847b9e4",
+              "https://hb.imgix.net/5c0a96c1d5c243807a14fb4df5f6de5f752a7e6f.jpg?auto=compress,format&fit=crop&h=122&w=218&s=23290833cceeab6931025db6b679488d",
+              "https://hb.imgix.net/b1bd0572fcfcc047e1ccc543cabc27ea1039c99a.jpg?auto=compress,format&fit=crop&h=122&w=218&s=1df6e8f031d6502417fa085bbaebeed6",
+              "https://hb.imgix.net/5ba8026d0fd01a776f0d778921e03d72b6e10d78.jpg?auto=compress,format&fit=crop&h=122&w=218&s=a3adbb77ba5142fed2edad3db456fdbf",
+              "https://hb.imgix.net/b5f556ca88af9510f8e9c0781c21fb3a86885090.jpg?auto=compress,format&fit=crop&h=122&w=218&s=3aacc09c2b6b1937ae4400816e8fb082"
+            ],
+            "screenshot": [
+              "https://hb.imgix.net/d8dfeb8f3618049c36eb91a0c2a7b076408311c7.jpg?auto=compress,format&fit=crop&h=425&w=741&s=21c33fabdd6c178f2543fd40ef2c128d",
+              "https://hb.imgix.net/121b95254ca75ae6d7913ba1256327d818a062f1.jpg?auto=compress,format&fit=crop&h=425&w=741&s=74e32855634bc3af88c14ddcb1d7141b",
+              "https://hb.imgix.net/e648679ffe1e85921164de56146d6eb5ce1a89d0.jpg?auto=compress,format&fit=crop&h=425&w=741&s=c094614598449c50404e6475b361df1b",
+              "https://hb.imgix.net/ffd5bd8aed05d1922006af9c2effea61ff3ec3d8.jpg?auto=compress,format&fit=crop&h=425&w=741&s=b9a0ef8ec417e3939e29c8305913a447",
+              "https://hb.imgix.net/303ee568cba7ebb83d1ea1485e3d496d77b7e557.jpg?auto=compress,format&fit=crop&h=425&w=741&s=4cb75947b32dc12221bf19dca92c79af",
+              "https://hb.imgix.net/9f1bcde55fd1431ca2dade59136df04650e58e08.jpg?auto=compress,format&fit=crop&h=425&w=741&s=45d060a43c727409a953c5df4f3ef821",
+              "https://hb.imgix.net/09c4410b255a0fa06b1203c22d28d92e7a701735.jpg?auto=compress,format&fit=crop&h=425&w=741&s=33ab2f455c66f1c70276def869914e2e",
+              "https://hb.imgix.net/84f90ab897b5a86b71e1453c72297899494877ea.jpg?auto=compress,format&fit=crop&h=425&w=741&s=4210172b44677cc8332a06e131938cca",
+              "https://hb.imgix.net/a9a53de10d3dd5f9b848287e4b7fc055c574520d.jpg?auto=compress,format&fit=crop&h=425&w=741&s=eb0f0fcc71597234034aa36ac86c184a",
+              "https://hb.imgix.net/5c0a96c1d5c243807a14fb4df5f6de5f752a7e6f.jpg?auto=compress,format&fit=crop&h=425&w=741&s=24eec460817ed365c46e7104e1f30f57",
+              "https://hb.imgix.net/b1bd0572fcfcc047e1ccc543cabc27ea1039c99a.jpg?auto=compress,format&fit=crop&h=425&w=741&s=fb51bff1905d9bd67ec9258b06decd68",
+              "https://hb.imgix.net/5ba8026d0fd01a776f0d778921e03d72b6e10d78.jpg?auto=compress,format&fit=crop&h=425&w=741&s=3cb58ef65b4b0ca7aee363b5ced2548e",
+              "https://hb.imgix.net/b5f556ca88af9510f8e9c0781c21fb3a86885090.jpg?auto=compress,format&fit=crop&h=425&w=741&s=bcad8cde30a3d4c0f34ced9995d76574"
+            ]
+          },
+          "image": "https://hb.imgix.net/a2ad18703db2ca5b483d4c377d025db0092d13cf.jpg?auto=compress,format&fit=clip&h=383&w=667&s=d4e156c89e8417715aea0aa03d676477",
+          "display_item_machine_name": "starshiptroopers_terrancommand",
+          "tpkds": [
+            {
+              "machine_name": "starshiptroopers_terrancommand_latam_choice_steam",
+              "custom_instructions_html": "<div style=\"text-align:center;\"><p><span style=\"color: #1695df;\">Complete the full redeem process to have instant and lifetime access to your game</span></p></div>",
+              "show_custom_instructions_in_user_libraries": false,
+              "key_type": "steam",
+              "visible": true,
+              "sold_out": false,
+              "is_partial_gift": false,
+              "display_separately": false,
+              "steam_app_id": 1202130,
+              "exclusive_countries": [
+                "AG",
+                "AR",
+                "BB",
+                "BM",
+                "BO",
+                "BR",
+                "BS",
+                "BZ",
+                "CL",
+                "CO",
+                "CR",
+                "CU",
+                "DM",
+                "DO",
+                "EC",
+                "FK",
+                "GD",
+                "GF",
+                "GS",
+                "GT",
+                "GY",
+                "HN",
+                "HT",
+                "JM",
+                "KN",
+                "LC",
+                "MX",
+                "NI",
+                "PA",
+                "PE",
+                "PR",
+                "PY",
+                "SR",
+                "SV",
+                "TT",
+                "UY",
+                "VC",
+                "VE"
+              ],
+              "class": "steambutton",
+              "num_days_until_expired": -1,
+              "gamekey": null,
+              "disallowed_countries": [],
+              "direct_redeem": false,
+              "instructions_html": "<a href='https://support.humblebundle.com/hc/articles/204008710-How-To-Redeem-Steam-Keys' target='_blank'>Steam Instructions</a>",
+              "key_type_human_name": "Steam",
+              "human_name": "Starship Troops Terran Command",
+              "preinstruction_text": "Copy this key into the Steam client, or click Redeem to redeem in-browser.",
+              "auto_expand": true,
+              "is_expired": false,
+              "partial_gift_enabled": true,
+              "disclaimer": "Steam will not provide extra giftable copies of games you already own."
+            }
+          ],
+          "user_rating": {
+            "steam_percent|decimal": 0.88,
+            "display_user_ratings": "steam_overall",
+            "review_text": "very_positive",
+            "steam_count": 7530
+          },
+          "platforms": [
+            "windows"
+          ],
+          "more_information": null,
+          "msrp|money": {
+            "currency": "USD",
+            "amount": 29.99
+          },
+          "developers": [
+            "The Artistocrats/Slitherine Ltd."
+          ],
+          "system_requirements": "<b>Minimum:</b><br><br><b><u>Windows</u></b><br><strong>OS *:</strong> 64-bit Windows 8/10 (the game runs on Windows 7 but no support will be provided)<br><strong>Processor:</strong> Intel Core i5 or equivalent<br><strong>Memory:</strong> 8 GB RAM<br><strong>Graphics:</strong> GeForce GTX 1050/ Radeon RX 560<br><strong>DirectX:</strong> Version 9.0<br><strong>Storage:</strong> 10 GB available space<br><br><b>Recommended:</b><br><br><b><u>Windows</u></b><br><strong>OS:</strong> Windows 10, Windows 11<br><strong>Processor:</strong> Intel Core i7 or equivalent<br><strong>Memory:</strong> 16 GB RAM<br><strong>Graphics:</strong> Geforce GTX 1070 or equivalent<br><strong>DirectX:</strong> Version 9.0<br><strong>Storage:</strong> 10 GB available space<br><br><b>Supported Languages:</b> English, French, German, Spanish - Spain, Polish, Portuguese - Brazil, Russian, Simplified Chinese",
+          "genres": [
+            "Strategy"
+          ]
+        },
+        "ghostrunner2": {
+          "recommendation_copy_dict": {
+            "copy": "Become the ultimate cyber ninja in the electrifying first-person slasher <em>Ghostrunner 2</em>. Set one year after the events of its predecessor, this sequel propels you into a post-apocalyptic cyberpunk world where you'll face off against a violent AI cult that has taken control of the sprawling urban wastelands. Get ready for thrilling katana combat set in blazingly fast, intricate levels, complete with exhilarating high-speed motorbike chases. Engage in dynamic boss battles, each offering complex strategies for survival. With new abilities and an enhanced progression system, every encounter invites creativity and tactical prowess, all underscored by a pulse-pounding synthwave soundtrack."
+          },
+          "delivery_methods": [
+            "steam"
+          ],
+          "description": "<video autoplay=\"autoplay\" loop=\"loop\" muted=\"muted\" preload=\"auto\" style=\"width: 600px; height: 230px;\">\n <source src=\"https://hb.imgix.net/8b57645d46dcf25804bff632c1a623ab4b94d862.gif?auto=format&fm=mp4&s=ea37738d93eb8517330394c37e6134c3\" type=\"video/mp4\">\n</video>\n<br>\n<br>\nBlood will run in the highly anticipated hardcore FPP slasher set one year after the events of Ghostrunner. Adventure through a post-apocalyptic cyberpunk future that takes place after the fall of the Keymaster, a tyrant who ruled over Dharma Tower, the last refuge of mankind. Jack is back to take on the violent AI cult that has assembled outside Dharma Tower and shape the future of humanity.\n<br>\n<br>\nFeaturing incredible katana combat mechanics, a deeper exploration of the world beyond Dharma Tower, nonlinear levels with complex motorbike sections, exciting new modes, and all the action you loved about Ghostrunner. Plus, boss fights are more interactive, giving players freedom to choose how to survive battles against the toughest opponents.\n<br>\n<br>\n<video autoplay=\"autoplay\" loop=\"loop\" muted=\"muted\" preload=\"auto\" style=\"width: 600px; height: 200px;\">\n <source src=\"https://hb.imgix.net/31eaa324f5b676fd522c06f715aa68d0f70f47de.gif?auto=format&fm=mp4&s=dbe637bb4110b34e17b8271dd459c9c7\" type=\"video/mp4\">\n</video>\n<br>\n<br>\n<strong>\n Become The Ultimate Cyber Ninja\n</strong>\n<br>\n<i>Ghostrunner 2</i> introduces new skills, allowing players to be more creative and take on even the most demanding encounters with greater accessibility. However, enemies in <i>Ghostrunner 2</i> behave uniquely dependent on the skills used against them, providing a fresh challenge with each encounter. The player progression system has been completely redone, providing opportunities to experiment and customize gameplay.\n<br>\n<br>\n<video autoplay=\"autoplay\" loop=\"loop\" muted=\"muted\" preload=\"auto\" style=\"width: 600px; height: 200px;\">\n <source src=\"https://hb.imgix.net/28d757e3c03eeed84543bb091d0a917f527b67f1.gif?auto=format&fm=mp4&s=5eac5fcb06b314af0dc747421bc5a95e\" type=\"video/mp4\">\n</video>\n<br>\n<br>\n<strong>\n Immersive, Mind-Bending Features\n</strong>\n<br>\nMaster the Cybervoid if you hope to survive. Take on challenging, new enemies as you traverse interactive environments including exploding barrels, destructible walls, helpful neutral entities, and countless improvements that keep combat exciting and fresh. Can’t get enough? Dive even deeper into the lore and plot with the new dialogue system.\n<br>\n<br>\n<video autoplay=\"autoplay\" loop=\"loop\" muted=\"muted\" preload=\"auto\" style=\"width: 600px; height: 200px;\">\n <source src=\"https://hb.imgix.net/536c0f006cf042f94ea60f510a630f14057f4dd0.gif?auto=format&fm=mp4&s=6f12e6c13e12d7f90cf418044b5d2295\" type=\"video/mp4\">\n</video>\n<br>\n<br>\n<strong>\n Sounds of the Cybervoid\n</strong>\n<br>\nSave humanity in style as you decimate your opponents while listening to the captivating synthwave soundtrack featuring new music from Daniel Deluxe, We Are Magonia, Gost, Dan Terminus, and Arek Reikowski.\n",
+          "title": "Ghostrunner 2",
+          "carousel_content": {
+            "youtube-link": [
+              "fHaxQim0OuM"
+            ],
+            "asm-demo-machine-name": [],
+            "thumbnails": [
+              "https://hb.imgix.net/ee5e46a87e0c55be2ca9b31bd11ba17ee743638f.jpg?auto=compress,format&fit=crop&h=122&w=218&s=a379b1dfb0f9398573ea7dd339402e27",
+              "https://hb.imgix.net/f96ec907267237721e3371fdb8518de95819a798.jpg?auto=compress,format&fit=crop&h=122&w=218&s=9b50c9eec7ce88791537b8fcf671a8fa",
+              "https://hb.imgix.net/a43970cc49d06033926f86a6d9ec6b1e26ca7f41.jpg?auto=compress,format&fit=crop&h=122&w=218&s=ffa96e2d7a8a651ffe3755e9c0d40b8b",
+              "https://hb.imgix.net/b7caf4e02f12e695562204c1f47da6905507e31b.jpg?auto=compress,format&fit=crop&h=122&w=218&s=88efd889502f78fa87c6a49fd09fe5f2",
+              "https://hb.imgix.net/4321fae60d06c501b0410b09fce8fc1be99ef60a.jpg?auto=compress,format&fit=crop&h=122&w=218&s=0c1eefbdba3b81b6439e7fe5083dc88e",
+              "https://hb.imgix.net/3f73bfdc61ff0b3f710974f2d3123c307be9d58d.jpg?auto=compress,format&fit=crop&h=122&w=218&s=ba772710fdcb5b548d22ecc7990c0d1d",
+              "https://hb.imgix.net/46f85583132346a41d51a23af55f25bb3ab53b85.jpg?auto=compress,format&fit=crop&h=122&w=218&s=f4c9790fe4e981ae7826325ef2a4f670",
+              "https://hb.imgix.net/a041f021c78cae684cacd2ab7c9db277bfc2909e.jpg?auto=compress,format&fit=crop&h=122&w=218&s=1b2f5b4a764504dc12676b22c6b133fd",
+              "https://hb.imgix.net/e2973f0e898e4d6a762c7a4514895b2fe5deb114.jpg?auto=compress,format&fit=crop&h=122&w=218&s=56ed43362bac8483c2c7a8dd4e13f616",
+              "https://hb.imgix.net/32395f8cd1fe43f10b8b1e980891ba9ab1b289e8.jpg?auto=compress,format&fit=crop&h=122&w=218&s=0b6df90028c22255b75882383d69d1a0"
+            ],
+            "screenshot": [
+              "https://hb.imgix.net/ee5e46a87e0c55be2ca9b31bd11ba17ee743638f.jpg?auto=compress,format&fit=crop&h=425&w=741&s=d74ebd3c14d4e46c285c8ae9404d0610",
+              "https://hb.imgix.net/f96ec907267237721e3371fdb8518de95819a798.jpg?auto=compress,format&fit=crop&h=425&w=741&s=2dba85aed5bbfc270db2c00746e5d66d",
+              "https://hb.imgix.net/a43970cc49d06033926f86a6d9ec6b1e26ca7f41.jpg?auto=compress,format&fit=crop&h=425&w=741&s=c054a0d67ec420c79987a0f962725e7d",
+              "https://hb.imgix.net/b7caf4e02f12e695562204c1f47da6905507e31b.jpg?auto=compress,format&fit=crop&h=425&w=741&s=2f118fb76f88cd111c1a30c1499c30de",
+              "https://hb.imgix.net/4321fae60d06c501b0410b09fce8fc1be99ef60a.jpg?auto=compress,format&fit=crop&h=425&w=741&s=b9e2817699b262f1cda7099f8296034e",
+              "https://hb.imgix.net/3f73bfdc61ff0b3f710974f2d3123c307be9d58d.jpg?auto=compress,format&fit=crop&h=425&w=741&s=cbe2124bdfab15ff5b18a4537b3d6fb0",
+              "https://hb.imgix.net/46f85583132346a41d51a23af55f25bb3ab53b85.jpg?auto=compress,format&fit=crop&h=425&w=741&s=acd4964a1ec9a94fbadfc534f8d1c914",
+              "https://hb.imgix.net/a041f021c78cae684cacd2ab7c9db277bfc2909e.jpg?auto=compress,format&fit=crop&h=425&w=741&s=8e90fedf9ac9c75bd74b0c2f8cc3e117",
+              "https://hb.imgix.net/e2973f0e898e4d6a762c7a4514895b2fe5deb114.jpg?auto=compress,format&fit=crop&h=425&w=741&s=dcb3b585b783d44a66a4e935b1fbf443",
+              "https://hb.imgix.net/32395f8cd1fe43f10b8b1e980891ba9ab1b289e8.jpg?auto=compress,format&fit=crop&h=425&w=741&s=53d155ea438af82d77db611867c96745"
+            ]
+          },
+          "image": "https://hb.imgix.net/e318a9ab7ba10d3b021ead299ef011072e89328d.jpg?auto=compress,format&fit=clip&h=383&w=667&s=63db35e17b9c644ef1753b326f6797c4",
+          "display_item_machine_name": "ghostrunner2",
+          "tpkds": [
+            {
+              "machine_name": "ghostrunner2_ww_choice_steam",
+              "custom_instructions_html": "<div style=\"text-align:center;\"><p><span style=\"color: #1695df;\">Complete the full redeem process to have instant and lifetime access to your game</span></p></div>",
+              "show_custom_instructions_in_user_libraries": false,
+              "key_type": "steam",
+              "visible": true,
+              "sold_out": false,
+              "is_partial_gift": false,
+              "display_separately": false,
+              "steam_app_id": 2144740,
+              "exclusive_countries": [],
+              "class": "steambutton",
+              "num_days_until_expired": -1,
+              "gamekey": null,
+              "disallowed_countries": [
+                "CN"
+              ],
+              "direct_redeem": false,
+              "instructions_html": "<a href='https://support.humblebundle.com/hc/articles/204008710-How-To-Redeem-Steam-Keys' target='_blank'>Steam Instructions</a>",
+              "key_type_human_name": "Steam",
+              "human_name": "Ghostrunner 2",
+              "preinstruction_text": "Copy this key into the Steam client, or click Redeem to redeem in-browser.",
+              "auto_expand": true,
+              "is_expired": false,
+              "partial_gift_enabled": true,
+              "disclaimer": "Steam will not provide extra giftable copies of games you already own."
+            }
+          ],
+          "user_rating": {
+            "steam_percent|decimal": 0.84,
+            "display_user_ratings": "steam_overall",
+            "review_text": "very_positive",
+            "steam_count": 4391
+          },
+          "platforms": [
+            "windows"
+          ],
+          "more_information": null,
+          "msrp|money": {
+            "currency": "USD",
+            "amount": 39.99
+          },
+          "developers": [
+            "One More Level/505 Games"
+          ],
+          "system_requirements": "<b>Minimum:</b><br><br><b><u>Windows</u></b><br><strong>OS:</strong> Windows 10 x64<br><strong>Processor:</strong> Intel Core i5-4590 (4 * 3300) or equivalent / AMD FX-8350 (4 * 4000) or equivalent<br><strong>Memory:</strong> 8 GB RAM<br><strong>Graphics:</strong> GeForce GTX 960 (4096 MB) / Radeon RX 480 (8192 MB) or Intel Arc A380 (8192 MB)<br><strong>DirectX:</strong> Version 11<br><strong>Storage:</strong> 65 GB available space<br><strong>Additional Notes:</strong> SSD Required<br><br><b>Recommended:</b><br><br><b><u>Windows</u></b><br><strong>OS:</strong> Windows 10 x64<br><strong>Processor:</strong> Intel Core i9-9900k (8 * 3600) / AMD Ryzen 5 5600X (6 * 3700 ) or equivalent<br><strong>Memory:</strong> 16 GB RAM<br><strong>Graphics:</strong> GeForce RTX 2070 Super (8192 MB) / Radeon RX 6800 XT (16384 MB) or Intel Arc A770 (16384 MB)<br><strong>DirectX:</strong> Version 12<br><strong>Storage:</strong> 65 GB available space<br><strong>Additional Notes:</strong> SSD Required<br><br><b>Supported Languages:</b> English, French, Italian, German, Spanish - Spain, Japanese, Korean, Polish, Portuguese - Brazil, Russian, Simplified Chinese, Traditional Chinese, Ukrainian",
+          "genres": [
+            "Action",
+            "Adventure",
+            "Strategy"
+          ]
+        },
+        "figment2_creedvalley": {
+          "recommendation_copy_dict": {
+            "category": "surprise_hit",
+            "copy": "Take a plunge into the depths of the human mind in the vibrant and surreal action-adventure <em>Figment 2: Creed Valley</em>. The mind that you inhabit has been invaded by the embodiments of dark thoughts known as Nightmares, who have shattered its Moral Compass. It’s up to Dusty, the embodiment of the mind’s courage, to fight off these foul invaders. Explore a gorgeously realized storybook world, contend with puzzles that equally test both your brains and reflexes, and engage in stirring musical showdowns to quiet the vicious thoughts that disturb the placid mind you call home."
+          },
+          "delivery_methods": [
+            "steam"
+          ],
+          "description": "<video autoplay=\"autoplay\" loop=\"loop\" muted=\"muted\" preload=\"auto\" style=\"width: 616px; height: 347px;\">\n <source src=\"https://hb.imgix.net/8f9ac3e15336c627473821f08fbf37d2f37143f3.gif?auto=format&amp;fm=mp4&amp;s=6f0d3711e3ac6b68ca95b5c52dd64243\" type=\"video/mp4\">\n</video> <br><i> Piano bridges, dancing plants and musical showdowns, ready to dive into The Mind? </i> <br><br><i>Figment 2: Creed Valley</i> is an action-adventure game set in the human mind. Nightmares are spreading chaos and have overrun once-peaceful lands. Join Dusty, The Mind’s courage, as you make your way through puzzles, musical boss fights and unique environments. Face your fears head-on. <br><br>Nightmares have shattered the Moral Compass, making The Mind unable to function properly. Dusty and his ever-optimistic sidekick, Piper, must travel to Creed Valley, where The Mind’s ideals are formed to restore peace. A journey filled with musical showdowns and mind-bending puzzles awaits. <br><br><img height=\"38\" src=\"https://hb.imgix.net/5a832e00257b04587a3d41bda363adc076388f8f.png?auto=compress,format&amp;s=78b932f79a1f960369201283b8ad350b\" width=\"616\"> <br><video autoplay=\"autoplay\" loop=\"loop\" muted=\"muted\" preload=\"auto\" style=\"width: 616px; height: 281px;\">\n <source src=\"https://hb.imgix.net/ad0717348d42c0b212add9534dc563d600a8a30b.gif?auto=format&amp;fm=mp4&amp;s=a5d74eb5c266751672a6f3ced6369807\" type=\"video/mp4\">\n</video> <br><img height=\"39\" src=\"https://hb.imgix.net/ead2b7b92457e3dd9984268a5ccdee89ce9542a6.png?auto=compress,format&amp;s=ec99c2702b5712c8b7bb7bd0ad0f577b\" width=\"616\"> <br>Nightmares have their own theme songs, shining light on why they have appeared. <br>Dodge and weave as they taunt you. <br><img height=\"38\" src=\"https://hb.imgix.net/4443b7a3d711de047daefd7b480f771a447af4f0.png?auto=compress,format&amp;s=cd7588522905d50ada7d264b5d18ba9d\" width=\"616\"> <br><video autoplay=\"autoplay\" loop=\"loop\" muted=\"muted\" preload=\"auto\" style=\"width: 616px; height: 281px;\">\n <source src=\"https://hb.imgix.net/9621cdabae919bdb93a48f8dc9dc797e82724ff1.gif?auto=format&amp;fm=mp4&amp;s=e188e9952f3094a782e38527a1c9eb66\" type=\"video/mp4\">\n</video> <br><img height=\"39\" src=\"https://hb.imgix.net/0cc975e2870ad19dedcbe7a6b68334b9b9f7ded5.png?auto=compress,format&amp;s=ed61e4dc38608960ff6290049dbc9532\" width=\"616\"> <br>Chat with The Mind's ever-changing opinions and tune in to the world's rhythm. <br><img height=\"38\" src=\"https://hb.imgix.net/4443b7a3d711de047daefd7b480f771a447af4f0.png?auto=compress,format&amp;s=cd7588522905d50ada7d264b5d18ba9d\" width=\"616\"> <br><video autoplay=\"autoplay\" loop=\"loop\" muted=\"muted\" preload=\"auto\" style=\"width: 616px; height: 281px;\">\n <source src=\"https://hb.imgix.net/6ec9ddb699dce8fb181fbccbc5576bef322ffacb.gif?auto=format&amp;fm=mp4&amp;s=c9ed6d9331872a0db849a32c931bcb4d\" type=\"video/mp4\">\n</video> <br><img height=\"39\" src=\"https://hb.imgix.net/e5951efb9515ab7adee473983f2e5e8bc3c02d79.png?auto=compress,format&amp;s=392fbac761a7100ffdb21f7da10a69d1\" width=\"616\"> <br>Explore The Mind’s two fundamental states: Open-minded and Closed-minded. Switch between states and adapt to the shifting environment to move forward. <br><img height=\"38\" src=\"https://hb.imgix.net/4443b7a3d711de047daefd7b480f771a447af4f0.png?auto=compress,format&amp;s=cd7588522905d50ada7d264b5d18ba9d\" width=\"616\"> <br><video autoplay=\"autoplay\" loop=\"loop\" muted=\"muted\" preload=\"auto\" style=\"width: 616px; height: 281px;\">\n <source src=\"https://hb.imgix.net/e8313cdda7f0baff489f44671cecb804cc10ebd4.gif?auto=format&amp;fm=mp4&amp;s=09276c10b4c238921ae1d06143663e8c\" type=\"video/mp4\">\n</video> <br><img height=\"39\" src=\"https://hb.imgix.net/a386ce55c790acade6eba9b7c5f10412639b94eb.png?auto=compress,format&amp;s=67b8bd334e7c74d9f9a72eae7a789b47\" width=\"616\"> <br>Prove your mental and physical strength through mind-bending puzzles and fights timed to the soundtrack. <br><img height=\"38\" src=\"https://hb.imgix.net/4443b7a3d711de047daefd7b480f771a447af4f0.png?auto=compress,format&amp;s=cd7588522905d50ada7d264b5d18ba9d\" width=\"616\"> <br><video autoplay=\"autoplay\" loop=\"loop\" muted=\"muted\" preload=\"auto\" style=\"width: 616px; height: 281px;\">\n <source src=\"https://hb.imgix.net/33b66a3449e98bb69adcfc3beeb9291bd8f9c12b.gif?auto=format&amp;fm=mp4&amp;s=bfccbed04b8353f3b8271fb82a6beec0\" type=\"video/mp4\">\n</video> <br><img height=\"39\" src=\"https://hb.imgix.net/1fc4b92c286c3ec378b5b0cf8e6cadaf6bee00e4.png?auto=compress,format&amp;s=f07b8615197f928a6536d7d9a9eb56a5\" width=\"616\"> <br>We should never have to face our fears alone. Piper is now a controllable character for local co-op. Controller required. <br><br><img height=\"38\" src=\"https://hb.imgix.net/49818b5e2c518d0d20f337d3406dddf227e620ed.png?auto=compress,format&amp;s=30235d90cb3be886a6146a50ddd73358\" width=\"616\"> <br><br>Joy, sadness and everything in between. <i>Figment 2: Creed Valley</i> draws from emotional experiences that affect us all. <br>Face stress, anxiety and the fear of the dark in a musical and surreal universe. <br>Grab your sword and restore the light that once was. <br><br><video autoplay=\"autoplay\" loop=\"loop\" muted=\"muted\" preload=\"auto\" style=\"width: 616px; height: 250px;\">\n <source src=\"https://hb.imgix.net/fafb5b70a01b9e3fba57c0afc7b2c8d6fcdefc22.gif?auto=format&amp;fm=mp4&amp;s=adb624d25596435ec070d1ff217b056b\" type=\"video/mp4\">\n</video>",
+          "title": "Figment 2: Creed Valley",
+          "carousel_content": {
+            "youtube-link": [
+              "FaMoVBZXRzQ",
+              "rGKYD6xQMrE"
+            ],
+            "thumbnails": [
+              "https://hb.imgix.net/c62d98d582e3c5134518926a1d2b4cdd070cd51d.jpg?auto=compress,format&fit=crop&h=122&w=218&s=c2fd0b78166e845310dfe5ac150f0bef",
+              "https://hb.imgix.net/e693ec53cd178a20bf732d03486352eded3c9daa.jpg?auto=compress,format&fit=crop&h=122&w=218&s=8054d6f0637219d905cff02e8ba33159",
+              "https://hb.imgix.net/c4b69f86a0040d5ded89f1044b9515902fc5bd02.jpg?auto=compress,format&fit=crop&h=122&w=218&s=cc0ae6c8d05a6f1f9f15375904435a2e",
+              "https://hb.imgix.net/d4bb2d6387857bd44d903b136bd0ebecead9b69f.jpg?auto=compress,format&fit=crop&h=122&w=218&s=a948812b115fb16c6ec46748241831ba",
+              "https://hb.imgix.net/28b42c442cdafff8db1b3e946093dec5f785dde3.jpg?auto=compress,format&fit=crop&h=122&w=218&s=38dee502684b9848624381a3296504f9",
+              "https://hb.imgix.net/5864c663267bf39ab19e07c89c03586d8dbfa7ba.jpg?auto=compress,format&fit=crop&h=122&w=218&s=df06318b9b04c4b283468c59f62cd60d",
+              "https://hb.imgix.net/ece203ff073c24a6bc9e1174e7a0b24e95c2b842.jpg?auto=compress,format&fit=crop&h=122&w=218&s=8ef60c7b91e3c34002b7cb0e855870a4",
+              "https://hb.imgix.net/c15784c36ff08afa4f58b90e4c8457e85b114d98.jpg?auto=compress,format&fit=crop&h=122&w=218&s=658e0fce4269316deef3583f8669158f",
+              "https://hb.imgix.net/01239bcbcb29a7913f704464bbbaa420929dc8b7.jpg?auto=compress,format&fit=crop&h=122&w=218&s=469d88188fbd6f46125c07adc4fabeb8"
+            ],
+            "screenshot": [
+              "https://hb.imgix.net/c62d98d582e3c5134518926a1d2b4cdd070cd51d.jpg?auto=compress,format&fit=crop&h=425&w=741&s=64218cc47121550584cd440de2c02661",
+              "https://hb.imgix.net/e693ec53cd178a20bf732d03486352eded3c9daa.jpg?auto=compress,format&fit=crop&h=425&w=741&s=d3c4a421b24ba80cd672ec9d9f9deb3a",
+              "https://hb.imgix.net/c4b69f86a0040d5ded89f1044b9515902fc5bd02.jpg?auto=compress,format&fit=crop&h=425&w=741&s=eb8a23eb1193879de6fc8215664c2474",
+              "https://hb.imgix.net/d4bb2d6387857bd44d903b136bd0ebecead9b69f.jpg?auto=compress,format&fit=crop&h=425&w=741&s=fc1ab941ed731a1fdbea5020066bc43e",
+              "https://hb.imgix.net/28b42c442cdafff8db1b3e946093dec5f785dde3.jpg?auto=compress,format&fit=crop&h=425&w=741&s=f922facb8a831d9a687e2c27f71d965a",
+              "https://hb.imgix.net/5864c663267bf39ab19e07c89c03586d8dbfa7ba.jpg?auto=compress,format&fit=crop&h=425&w=741&s=4fe967b6d7522fdbd9fe58c6c67652a4",
+              "https://hb.imgix.net/ece203ff073c24a6bc9e1174e7a0b24e95c2b842.jpg?auto=compress,format&fit=crop&h=425&w=741&s=57e8498993ac36963c9de99883b1006b",
+              "https://hb.imgix.net/c15784c36ff08afa4f58b90e4c8457e85b114d98.jpg?auto=compress,format&fit=crop&h=425&w=741&s=5069886fd72e75967e95c4eca0539c89",
+              "https://hb.imgix.net/01239bcbcb29a7913f704464bbbaa420929dc8b7.jpg?auto=compress,format&fit=crop&h=425&w=741&s=c530000e000a1657475b8f0de52c867d"
+            ]
+          },
+          "image": "https://hb.imgix.net/babdb26bb098ff87b251a30347ce4d8c7fa445a4.jpg?auto=compress,format&fit=clip&h=383&w=667&s=a9e5137c761a295640a52702341e9e20",
+          "display_item_machine_name": "figment2_creedvalley",
+          "tpkds": [
+            {
+              "machine_name": "figment2_creedvalley_choice_steam",
+              "custom_instructions_html": "<div style=\"text-align:center;\"><p><span style=\"color: #1695df;\">Complete the full redeem process to have instant and lifetime access to your game</span></p></div>",
+              "show_custom_instructions_in_user_libraries": false,
+              "key_type": "steam",
+              "visible": true,
+              "sold_out": false,
+              "is_partial_gift": false,
+              "display_separately": false,
+              "steam_app_id": 1085220,
+              "exclusive_countries": [],
+              "class": "steambutton",
+              "num_days_until_expired": -1,
+              "gamekey": null,
+              "disallowed_countries": [],
+              "direct_redeem": false,
+              "instructions_html": "<a href='https://support.humblebundle.com/hc/articles/204008710-How-To-Redeem-Steam-Keys' target='_blank'>Steam Instructions</a>",
+              "key_type_human_name": "Steam",
+              "human_name": "Figment 2",
+              "preinstruction_text": "Copy this key into the Steam client, or click Redeem to redeem in-browser.",
+              "auto_expand": false,
+              "is_expired": false,
+              "partial_gift_enabled": true,
+              "disclaimer": "Steam will not provide extra giftable copies of games you already own."
+            }
+          ],
+          "user_rating": {
+            "steam_percent|decimal": 0.96,
+            "display_user_ratings": "steam_overall",
+            "review_text": "very_positive",
+            "steam_count": 195
+          },
+          "platforms": [
+            "windows"
+          ],
+          "more_information": null,
+          "msrp|money": {
+            "currency": "USD",
+            "amount": 24.99
+          },
+          "developers": [
+            "Bedtime Digital Games/Plug In Digital"
+          ],
+          "system_requirements": "<b>Minimum:</b><br><br><b><u>Windows</u></b><br><strong>OS:</strong> Windows 7/8/10/11<br><strong>Processor:</strong> Intel Core i5 2500 / AMD FX 6120<br><strong>Memory:</strong> 4 GB RAM<br><strong>Graphics:</strong> Nvidia GTX 650 Ti / Nvidia GT 750M / Radeon HD5850 or equivalent<br><strong>Storage:</strong> 2 GB available space<br><strong>Sound Card:</strong> Compatible with DirectX 11<br><strong>Additional Notes:</strong> Screen with support for either 16:9 or 16:10 aspect ratio<br><br><b>Recommended:</b><br><br><b><u>Windows</u></b><br><strong>OS:</strong> Windows 10 / Windows 11<br><strong>Processor:</strong> Intel Core i5 7600 / AMD Ryzen 5 1600<br><strong>Memory:</strong> 8 GB RAM<br><strong>Graphics:</strong> Nvidia GTX 1050 / AMD RX 560 or equivalent<br><strong>Storage:</strong> 2 GB available space<br><strong>Sound Card:</strong> Compatible with DirectX 11<br><strong>Additional Notes:</strong> Controller Support: Xbox One (requires Windows 10), PlayStation 4, Xbox 360, PlayStation 3, Logitech F710, Logitech F310 and several other controllers<br><br><b>Supported Languages:</b> English, French, Italian, German, Spanish - Spain, Arabic, Danish, Japanese, Korean, Polish, Portuguese - Brazil, Russian, Simplified Chinese, Traditional Chinese, Turkish, Ukrainian",
+          "genres": [
+            "Action",
+            "Indie",
+            "Adventure"
+          ]
+        },
+        "hereticsfork": {
+          "recommendation_copy_dict": {
+            "copy": "Take on the role of Hell’s manager in <em>Heretic's Fork</em>, a strategic blend of tower defense and deck-building that immerses you in the bureaucratic torment of the underworld. As sinners are damned to Hell, it's your duty to keep them in check using a sophisticated computer system. Construct hellish towers and draw card combinations to unleash devastating punishment against the endless hordes of sinners. Upgrade your deck through battles and strategic decisions, ensuring your defenses grow stronger with each wave. Will you master the chaos and maintain order in the depths of Hell?​"
+          },
+          "delivery_methods": [
+            "steam"
+          ],
+          "description": "<strong class=\"hmb\"> <br></strong><img height=\"35\" src=\"https://hb.imgix.net/ccbf15abe5890f4482c82905001cc32200792e58.png?auto=compress,format&amp;s=4358be37a2f8a6f0f8a845397d35ed93\" width=\"616\"> <br><br>Thank you for submitting your application for the position of Hell's Manager. We are pleased to offer you the job and extend a warm welcome to our team. As you may know, we have some overpopulation issues that we believe can be resolved with your help. <br><br><video autoplay=\"autoplay\" loop=\"loop\" muted=\"muted\" preload=\"auto\" style=\"width: 600px; height: 263px;\">\n <source src=\"https://hb.imgix.net/39698febd8c42975a9d60d52970da823681553ec.gif?auto=format&amp;fm=mp4&amp;s=7c4fb4d6dcdee4b59f339aa3f0d77534\" type=\"video/mp4\">\n</video> <br><br>Your role will involve not only managing the current population but also implementing innovative strategies to streamline our operations. You will be tasked with punishing sinners using our state-of-the-art computer system, <i>HERETIC'S FORK</i>, developed by DeusVult Inc. <br><br><video autoplay=\"autoplay\" loop=\"loop\" muted=\"muted\" preload=\"auto\" style=\"width: 600px; height: 263px;\">\n <source src=\"https://hb.imgix.net/8c3a78a325c46a31bcacef23bb0db2fb3ccbca36.gif?auto=format&amp;fm=mp4&amp;s=46c902fbb1b02df1bb8f9606de5cfc39\" type=\"video/mp4\">\n</video> <br><br>We are confident that your skills and expertise will greatly contribute to maintaining order and efficiency in our unique environment. We look forward to having you on board and seeing the positive impact you will bring to our organization. <br><br><video autoplay=\"autoplay\" loop=\"loop\" muted=\"muted\" preload=\"auto\" style=\"width: 600px; height: 263px;\">\n <source src=\"https://hb.imgix.net/407078db49def071e5fdc0e4e11744d4713e7628.gif?auto=format&amp;fm=mp4&amp;s=8ce1aca6c4cc0f09133f7de1ec85ba52\" type=\"video/mp4\">\n</video> <br><br><img height=\"35\" src=\"https://hb.imgix.net/2de7f144b698c86790564754c11aef147cdf28ca.png?auto=compress,format&amp;s=6f594c1906a3711c0589bec1a41e272c\" width=\"616\"> <br><br>1. Choose a demon to act as your subordinate who will manage all site operations. <br><br>2. Protect the rift between Hell and Earth from escape attempts by dwelling heretics. <br><br>3. Punish sinners with monstrous towers that deal Holy, Unholy, and Hellfire damage. <br><br>4. Plan strategies and build strength using our deck-building system. <br><br>5. Achieve great results to receive more cards for your deck. <br><br>6. Work for various departments, each representing a circle of Hell, and cooperate with them. <br><br>7. Ensure that sinners do not damage our property by keeping them from passing through. <br><br>8. Receive wages for each shift based on the number of sinners punished. Your success depends solely on you. <br><br>9. Be an integral part of our fun and delightful team with a shared dark sense of humor. <br><br><img height=\"180\" src=\"https://hb.imgix.net/d8a32378a3abb29be515ddc422d6e97ffab5b8d9.png?auto=compress,format&amp;s=214cb4f017e9e1d74bc409ba413bfa72\" width=\"616\">",
+          "title": "Heretic's Fork",
+          "carousel_content": {
+            "youtube-link": [
+              "9_kf7b3rJXI",
+              "ppgkuAcHD1Y",
+              "nt-hQkJCiP8"
+            ],
+            "thumbnails": [
+              "https://hb.imgix.net/45b601aa50dcb90a75207c6d81a22f23ef3210e2.jpg?auto=compress,format&fit=crop&h=122&w=218&s=0b09df9cdf7fd4f3120d0d65451b0765",
+              "https://hb.imgix.net/ffdb574cfc55226c1f90123bd224a23c1b190f61.jpg?auto=compress,format&fit=crop&h=122&w=218&s=81d1f72ed768ca6543ffc5ab79733eb9",
+              "https://hb.imgix.net/f6afaedf5c11b3283429c95839dd6adf8f8dfc46.jpg?auto=compress,format&fit=crop&h=122&w=218&s=2fc23ba92e6fb199fcd20bc4a80466b2",
+              "https://hb.imgix.net/4162e6032db9f51aa5a36d9a6f6ef9049f97b3c9.jpg?auto=compress,format&fit=crop&h=122&w=218&s=21efd9c582842ed250afc27fd5da781d",
+              "https://hb.imgix.net/77c818a89df1da94ed3bbff825a5474e1f202f4a.jpg?auto=compress,format&fit=crop&h=122&w=218&s=70e9c672987bbccd57b8468def83c9d8",
+              "https://hb.imgix.net/b94306c5a8242e4edf78a27cc20bd12407586a89.jpg?auto=compress,format&fit=crop&h=122&w=218&s=120e3074db9b0a79e9d658d26ce38b6e",
+              "https://hb.imgix.net/02a4f67dd37e5031297a30806c9c55ebb1225cba.jpg?auto=compress,format&fit=crop&h=122&w=218&s=7dc972cba980a86360b9a4439ab55f13"
+            ],
+            "screenshot": [
+              "https://hb.imgix.net/45b601aa50dcb90a75207c6d81a22f23ef3210e2.jpg?auto=compress,format&fit=crop&h=425&w=741&s=4a8d5001b096165b444bf2d79e14c4ec",
+              "https://hb.imgix.net/ffdb574cfc55226c1f90123bd224a23c1b190f61.jpg?auto=compress,format&fit=crop&h=425&w=741&s=e9fe5ced22417cfdf660e72bc5a19da3",
+              "https://hb.imgix.net/f6afaedf5c11b3283429c95839dd6adf8f8dfc46.jpg?auto=compress,format&fit=crop&h=425&w=741&s=81793fd2221e7c1c5af7a731f8a60ab7",
+              "https://hb.imgix.net/4162e6032db9f51aa5a36d9a6f6ef9049f97b3c9.jpg?auto=compress,format&fit=crop&h=425&w=741&s=6a392f96e292be5d48cea14aa22ba221",
+              "https://hb.imgix.net/77c818a89df1da94ed3bbff825a5474e1f202f4a.jpg?auto=compress,format&fit=crop&h=425&w=741&s=a2b06982f7204f931eafe5e747660ccb",
+              "https://hb.imgix.net/b94306c5a8242e4edf78a27cc20bd12407586a89.jpg?auto=compress,format&fit=crop&h=425&w=741&s=00b19bcd73b270735e552f00229716db",
+              "https://hb.imgix.net/02a4f67dd37e5031297a30806c9c55ebb1225cba.jpg?auto=compress,format&fit=crop&h=425&w=741&s=68449aa50f7feccd936c9bb9cfa14559"
+            ]
+          },
+          "image": "https://hb.imgix.net/a5b2c2ea7725c969597af3d98fe7c90225a22c58.jpg?auto=compress,format&fit=clip&h=383&w=667&s=53e3a4f10f34d2caca7c923cd149bf77",
+          "display_item_machine_name": "hereticsfork",
+          "tpkds": [
+            {
+              "machine_name": "hereticsfork_choice_steam",
+              "custom_instructions_html": "<div style=\"text-align:center;\"><p><span style=\"color: #1695df;\">Complete the full redeem process to have instant and lifetime access to your game</span></p></div>",
+              "show_custom_instructions_in_user_libraries": false,
+              "key_type": "steam",
+              "visible": true,
+              "sold_out": false,
+              "is_partial_gift": false,
+              "display_separately": false,
+              "steam_app_id": 2181610,
+              "exclusive_countries": [],
+              "class": "steambutton",
+              "num_days_until_expired": -1,
+              "gamekey": null,
+              "disallowed_countries": [],
+              "direct_redeem": false,
+              "instructions_html": "<a href='https://support.humblebundle.com/hc/articles/204008710-How-To-Redeem-Steam-Keys' target='_blank'>Steam Instructions</a>",
+              "key_type_human_name": "Steam",
+              "human_name": "Heretic's Fork",
+              "preinstruction_text": "Copy this key into the Steam client, or click Redeem to redeem in-browser.",
+              "auto_expand": false,
+              "is_expired": false,
+              "partial_gift_enabled": true,
+              "disclaimer": "Steam will not provide extra giftable copies of games you already own."
+            }
+          ],
+          "user_rating": {
+            "steam_percent|decimal": 0.86,
+            "display_user_ratings": "steam_overall",
+            "review_text": "very_positive",
+            "steam_count": 2307
+          },
+          "platforms": [
+            "windows"
+          ],
+          "more_information": null,
+          "msrp|money": {
+            "currency": "USD",
+            "amount": 9.99
+          },
+          "developers": [
+            "9FingerGames/Ravenage Games"
+          ],
+          "system_requirements": "<b>Minimum:</b><br><br><b><u>Windows</u></b><br><strong>OS:</strong> Microsoft 64bit Windows 10<br><strong>Processor:</strong> 64bit Intel compatible Dual Core CPU<br><strong>Memory:</strong> 2 GB RAM<br><strong>Graphics:</strong> OpenGL 4-compliant onboard graphics<br><strong>DirectX:</strong> Version 11<br><strong>Storage:</strong> 1 GB available space<br><br><b>Supported Languages:</b> English, French, German, Portuguese - Brazil, Russian, Simplified Chinese, Spanish - Latin America",
+          "genres": [
+            "Action",
+            "Strategy"
+          ]
+        },
+        "zoeti": {
+          "recommendation_copy_dict": {
+            "copy": "In this charming turn-based roguelite, you wield playing card combinations like pairs, full houses, and royal flushes to do battle against evil encroaching on your world. Set in a once peaceful land now terrorized by creatures formed from the congealed blood of a fallen deity, your job is to protect the devout townsfolk and their simple ways of life. Level up and enhance your abilities, discover powerful upgrades, and enlist assistance from an eclectic mix of locals, each with unique contributions that enrich your strategic options. Rally your allies, refine your tactics, and restore harmony to a world on the brink!"
+          },
+          "delivery_methods": [
+            "steam"
+          ],
+          "description": "<i>Zoeti</i> is a turn-based roguelite that features a deck of playing cards used to create card combos and activate skills in the heat of battle. Bolster your arsenal of skills through battles, discoverable upgrades, or aid from the locals which enhance your plays to overcome the evil plaguing your land.\n<br>\n<br>\n<video autoplay=\"autoplay\" loop=\"loop\" muted=\"muted\" preload=\"auto\" style=\"width: 616px; height: 110px;\">\n <source src=\"https://hb.imgix.net/501c5080b530d3ca70e622df37adbefbf5b58cf8.mp4?auto=compress,format&s=7736190cc38d9db5612c4d3e9f98e87a\" type=\"video/mp4\">\n</video>\n<br>\n<br>\nA once peaceful land, now overrun by monsters. You, a Star-Soul hero, are among a select few blessed to raze the land of evil.\n<br>\n<br>\nIn <i>Zoeti</i>, you are equipped with a deck of playing cards, with which you play card combinations (pair, full house, royal flush, etc.) to activate skills that will attack or defend against enemies. Further bolster your arsenal of skills and upgrades through battles and discovery. The blood of a dead god congeals into monsters roaming the countryside, threatening devout townsfolk and the simple lives they lead. Will you, a Star-Soul hero, protect them from the ravages of evil?\n<br>\n<br>\n<video autoplay=\"autoplay\" loop=\"loop\" muted=\"muted\" preload=\"auto\" style=\"width: 616px; height: 110px;\">\n <source src=\"https://hb.imgix.net/cf960af7f11dc43ba90fbbd30099902566203655.mp4?auto=compress,format&s=7b9083ac4b3223f5620c5d141faa2c9d\" type=\"video/mp4\">\n</video>\n<br>\n<br>\nYou'll need to crack open the enemy's defenses, bolster your grit and resolve, all while outsmarting the underhanded foes you face. Use your deck of playing cards to activate skills, attack foes, and defend yourself with card combinations, such as two pair, a full house, or straight flush. Through battle, discovery, and clever decision-making, you'll upgrade and enhance your build to complete the toughest challenges <i>Zoeti</i> has to offer.\n",
+          "title": "Zoeti",
+          "carousel_content": {
+            "youtube-link": [
+              "OU1P-NLYZlU",
+              "DXb9q2e2M4c"
+            ],
+            "asm-demo-machine-name": [],
+            "thumbnails": [
+              "https://hb.imgix.net/f4c6b5798103e3a07241158f0524b24f8e35b30e.jpg?auto=compress,format&fit=crop&h=122&w=218&s=a341bb508c646dd8c4d89d77a4cd1b0d",
+              "https://hb.imgix.net/61ceb314474c28cbb5727d3741413cde49658dc7.jpg?auto=compress,format&fit=crop&h=122&w=218&s=a61dcde55fadce6909d17b66222163cc",
+              "https://hb.imgix.net/963bbed54b06182f1e2de185e634482cd0ba71fb.jpg?auto=compress,format&fit=crop&h=122&w=218&s=b1255fe56fbf8a1c80fabad2300b509d",
+              "https://hb.imgix.net/ea17df675a42ca550d3d2ccddb21f693a2ce29a4.jpg?auto=compress,format&fit=crop&h=122&w=218&s=2b4878e15f9cdc4b7670f2a26649aacc",
+              "https://hb.imgix.net/e6017124eef6c3957b09f44676bc0d15377e99a7.jpg?auto=compress,format&fit=crop&h=122&w=218&s=6eb14770caeb974bf68c3e85c4d43cf2",
+              "https://hb.imgix.net/17276f4f8d0935d670b57c81cef95e1644dfa418.jpg?auto=compress,format&fit=crop&h=122&w=218&s=17ee21e6076ac35adcd339a07f2ee7e3",
+              "https://hb.imgix.net/d2398e406fcbf63b7f21f9758e3bd3d2901913a2.jpg?auto=compress,format&fit=crop&h=122&w=218&s=82fac1f2705df8e09093b31c42082180",
+              "https://hb.imgix.net/c9f0e82085d463fcc75e4768f11a551f698b995f.jpg?auto=compress,format&fit=crop&h=122&w=218&s=ca1eb1ca6a3dd633c7ac13d9fb68ac09",
+              "https://hb.imgix.net/bb8c394dd923b428bab8d707e27b061257041753.jpg?auto=compress,format&fit=crop&h=122&w=218&s=d489d3cce973347a44f2bf3d7f1b64b3",
+              "https://hb.imgix.net/388f14a528efecb762e9cdb03a64ee856497ba6c.jpg?auto=compress,format&fit=crop&h=122&w=218&s=e0a52708614f7a0dc05111f6719f729d"
+            ],
+            "screenshot": [
+              "https://hb.imgix.net/f4c6b5798103e3a07241158f0524b24f8e35b30e.jpg?auto=compress,format&fit=crop&h=425&w=741&s=51e6a5c996d9afa17a0c4c000a6d970c",
+              "https://hb.imgix.net/61ceb314474c28cbb5727d3741413cde49658dc7.jpg?auto=compress,format&fit=crop&h=425&w=741&s=f17244305c610febcec4d17d68675856",
+              "https://hb.imgix.net/963bbed54b06182f1e2de185e634482cd0ba71fb.jpg?auto=compress,format&fit=crop&h=425&w=741&s=e5464284d9a2e691077ec4d4b5e313cb",
+              "https://hb.imgix.net/ea17df675a42ca550d3d2ccddb21f693a2ce29a4.jpg?auto=compress,format&fit=crop&h=425&w=741&s=28939891881c66a05201d8f828bbc310",
+              "https://hb.imgix.net/e6017124eef6c3957b09f44676bc0d15377e99a7.jpg?auto=compress,format&fit=crop&h=425&w=741&s=34289e7b6308490c9c0ca1c6638798c4",
+              "https://hb.imgix.net/17276f4f8d0935d670b57c81cef95e1644dfa418.jpg?auto=compress,format&fit=crop&h=425&w=741&s=f5a1227da510d471ff29e08a9b3f529b",
+              "https://hb.imgix.net/d2398e406fcbf63b7f21f9758e3bd3d2901913a2.jpg?auto=compress,format&fit=crop&h=425&w=741&s=21946530bc113a157ec33d3883325a6e",
+              "https://hb.imgix.net/c9f0e82085d463fcc75e4768f11a551f698b995f.jpg?auto=compress,format&fit=crop&h=425&w=741&s=7ab3fbe6b98b567c6d5f15de68601c59",
+              "https://hb.imgix.net/bb8c394dd923b428bab8d707e27b061257041753.jpg?auto=compress,format&fit=crop&h=425&w=741&s=4a01b694ef02fb51fe4911bf7602acb4",
+              "https://hb.imgix.net/388f14a528efecb762e9cdb03a64ee856497ba6c.jpg?auto=compress,format&fit=crop&h=425&w=741&s=bd23834fac4b964850d721b729dd4dba"
+            ]
+          },
+          "image": "https://hb.imgix.net/a41d4feb5ae45308f699eb21f224e238b02c1724.jpg?auto=compress,format&fit=clip&h=383&w=667&s=e90d6bd05a483c38d0de1521f1e2ddca",
+          "display_item_machine_name": "zoeti",
+          "tpkds": [
+            {
+              "machine_name": "zoeti_choice_steam",
+              "custom_instructions_html": "<div style=\"text-align:center;\"><p><span style=\"color: #1695df;\">Complete the full redeem process to have instant and lifetime access to your game</span></p></div>",
+              "show_custom_instructions_in_user_libraries": false,
+              "key_type": "steam",
+              "visible": true,
+              "sold_out": false,
+              "is_partial_gift": false,
+              "display_separately": false,
+              "steam_app_id": 1434540,
+              "exclusive_countries": [],
+              "class": "steambutton",
+              "num_days_until_expired": -1,
+              "gamekey": null,
+              "disallowed_countries": [],
+              "direct_redeem": false,
+              "instructions_html": "<a href='https://support.humblebundle.com/hc/articles/204008710-How-To-Redeem-Steam-Keys' target='_blank'>Steam Instructions</a>",
+              "key_type_human_name": "Steam",
+              "human_name": "Zoeti",
+              "preinstruction_text": "Copy this key into the Steam client, or click Redeem to redeem in-browser.",
+              "auto_expand": false,
+              "is_expired": false,
+              "partial_gift_enabled": true,
+              "disclaimer": "Steam will not provide extra giftable copies of games you already own."
+            }
+          ],
+          "user_rating": {
+            "steam_percent|decimal": 0.81,
+            "display_user_ratings": "steam_overall",
+            "review_text": "very_positive",
+            "steam_count": 71
+          },
+          "platforms": [
+            "windows"
+          ],
+          "more_information": null,
+          "msrp|money": {
+            "currency": "USD",
+            "amount": 19.99
+          },
+          "developers": [
+            "Dusklight CO., LTD./Akupara Games"
+          ],
+          "system_requirements": "<b>Minimum:</b><br><br><b><u>Windows</u></b><br>Requires a 64-bit processor and operating system<br><strong>OS:</strong> Windows 10 64-bit<br><strong>Processor:</strong> 6th gen i5/Ryzen 3 1200 or better<br><strong>Memory:</strong> 8 GB RAM<br><strong>Graphics:</strong> Intel® HD Graphics 630, or GTX 750ti or better<br><strong>DirectX:</strong> Version 11<br><strong>Storage:</strong> 2 GB available space<br><br><b>Recommended:</b><br><br><b><u>Windows</u></b><br>Requires a 64-bit processor and operating system<br><strong>OS:</strong> Windows 10 64-bit<br><strong>Processor:</strong> 6th gen i7/Ryzen 5 1600 or better<br><strong>Memory:</strong> 8 GB RAM<br><strong>Graphics:</strong> RX 460, or GTX 950 or better<br><strong>DirectX:</strong> Version 11<br><strong>Storage:</strong> 2 GB available space<br><br><b>Supported Languages:</b> English, Traditional Chinese, French, Spanish - Spain, Simplified Chinese",
+          "genres": [
+            "Indie",
+            "Adventure",
+            "Strategy"
+          ]
+        },
+        "hyperviolent": {
+          "recommendation_copy_dict": {
+            "copy": "Take on the role of a lone survivor in <em>Hyperviolent</em>, a brutal old-school FPS inspired by classic sprite-based 3D games from the 1990s. After responding to a distress signal from a remote mining colony, you find yourself amidst an outbreak of violence and carnage among its crazed inhabitants. It’s up to you to reckon with the malevolent force hidden within its depths. Navigate this grizzly maze and battle hordes of monstrous enemies in fast-paced action like you remember from the old days. Ready to face the chaos and uncover the evil lurking in the asteroid?"
+          },
+          "delivery_methods": [
+            "steam"
+          ],
+          "description": "<i>HYPERVIOLENT</i> is a brutal, old-school FPS in the style of classic sprite-based 3D games from the 1990s. After responding to a distress signal from Commodus Asteroid 27-C, a remote mining colony, you find yourself in the midst of an outbreak of violence among its inhabitants. You must unravel the secrets of the asteroid and the evil hidden deep within its mines as you seek an answer to the madness within its complex corridors.\n<br>\n<br>\n<video autoplay=\"autoplay\" loop=\"loop\" muted=\"muted\" preload=\"auto\" style=\"width: 615px; height: 346px;\">\n <source src=\"https://hb.imgix.net/9f8c62d7f62aa5232594367a32b4ea0357859a09.gif?auto=format&fm=mp4&s=8e41e3831c5652050baa42cd295efd3e\" type=\"video/mp4\">\n</video>\n<br>\n<br>\nObliterate your foes with an extensive array of guns and melee weapons that can be dual-wielded in nearly endless combinations, and take the VIOLENCE to the next level. You are far from an invincible action hero however - manage your resources carefully, and be ever vigilant, for enemies can ambush you when you least expect it.\n<br>\n<br>\n<video autoplay=\"autoplay\" loop=\"loop\" muted=\"muted\" preload=\"auto\" style=\"width: 615px; height: 346px;\">\n <source src=\"https://hb.imgix.net/11f034af03539842652a1bc99bbc743181c622de.gif?auto=format&fm=mp4&s=27809ca67f0167bf4f3cc008b5d0eea7\" type=\"video/mp4\">\n</video>\n<strong class=\"hmb\">\n <br>\n <br>\n FEATURES\n</strong>\n<br>\n<ul>\n <li>\n  <strong>\n   Gorgeous 3D / Pixel Hybrid\n  </strong>\n  <br>\n  Explore the rich environments of the I.E.C. Commodus station and paint them with viscera, rendered in a combination of classic low-poly 3D, and hand-crafted 1990s pixel art aesthetic.\n  <br>\n </li>\n <li>\n  <strong>\n   Intense horror atmosphere\n  </strong>\n  <br>\n  Feel the dread of exploring the dark, claustrophobic corridors of an asteroid mine, stranded deep in space. Nobody can help you, nobody can save you, nobody can hear you scream.\n  <br>\n </li>\n <li>\n  <strong>\n   Brutal combat\n  </strong>\n  <br>\n  Dual-wield more than 20 unique ranged and melee weapons to obliterate insane and monstrous enemies, but don’t get cocky - manage your resources, you don’t want to run out of ammo in a bossfight…\n  <br>\n </li>\n <li>\n  <strong>\n   RPG / FPS mechanics\n  </strong>\n  <br>\n  Manage your inventory, upgrade weapons, interact with NPCs, & peruse through computer data logs to further your mission in this exciting, authentically nostalgic experience.\n  <br>\n </li>\n <li>\n  <strong>\n   Use the environment to your advantage\n  </strong>\n  <br>\n  Utilize switches, computer terminals, keycards & other control mechanisms to navigate the labyrinthian station and manipulate your environment.\n </li>\n</ul>\n<br>\n<video autoplay=\"autoplay\" loop=\"loop\" muted=\"muted\" preload=\"auto\" style=\"width: 615px; height: 346px;\">\n <source src=\"https://hb.imgix.net/4170d2c06c10222118275b6edcd0493b9b30c202.gif?auto=format&fm=mp4&s=3f39aac20d11f023cab104b5b40d2f89\" type=\"video/mp4\">\n</video>",
+          "title": "HYPERVIOLENT",
+          "carousel_content": {
+            "youtube-link": [
+              "JAGJ9_qOkz0"
+            ],
+            "asm-demo-machine-name": [],
+            "thumbnails": [
+              "https://hb.imgix.net/c1d7555c9640c58fb15c72617dd8bc1131657ef3.jpg?auto=compress,format&fit=crop&h=122&w=218&s=76b28b0843c0ea5675880156747d9b5b",
+              "https://hb.imgix.net/793e5929e87b1f7a81ff0bf118b28f88455a375e.jpg?auto=compress,format&fit=crop&h=122&w=218&s=5f67e09cf5c560c2cce57464fab3143e",
+              "https://hb.imgix.net/c254ea1eb118b65c554e7ff0ca89b029c3236e2c.jpg?auto=compress,format&fit=crop&h=122&w=218&s=ab215e8c413fed29ff7d200a2253abeb",
+              "https://hb.imgix.net/c55d7ab51ac91d004ac539c353eb5d404042cb1b.jpg?auto=compress,format&fit=crop&h=122&w=218&s=fac19c43079a3341b8d113cbd89a15ee",
+              "https://hb.imgix.net/7a588c590d8a3bd8a5c99cb0d6fee20cd947fe2a.jpg?auto=compress,format&fit=crop&h=122&w=218&s=69f2d3515d9317cc68ff215755634fba",
+              "https://hb.imgix.net/ebea99fca3ecf57495833c70efb6f3f05e7bf439.jpg?auto=compress,format&fit=crop&h=122&w=218&s=2ffdc773d0ddd8ff7685dac5b52e0a79",
+              "https://hb.imgix.net/838183c426ed17b5185ee37a1e5881d7997412d4.jpg?auto=compress,format&fit=crop&h=122&w=218&s=d3c1e45f3b95f713450ea051364d6fff",
+              "https://hb.imgix.net/50103cf93746dccfba95d71b9482d9c714916423.jpg?auto=compress,format&fit=crop&h=122&w=218&s=281f77d8d7c858d62c12f1d616c9c4c8",
+              "https://hb.imgix.net/5e23bb43d0cd4bd1af9c52002bbf5045204ac96e.jpg?auto=compress,format&fit=crop&h=122&w=218&s=03fcdcecbde2ca7c3521c47de5ebca2c",
+              "https://hb.imgix.net/e88bf0827eb2d81a17eb736fc16e962ce72dad1a.jpg?auto=compress,format&fit=crop&h=122&w=218&s=d1825a48933fbc7d5b312a1cd256f8ce",
+              "https://hb.imgix.net/2d3fb8908192848e4460acad38cf197406231b11.jpg?auto=compress,format&fit=crop&h=122&w=218&s=9f02a0ed1757e5cdf7c73bf10ddd3c09",
+              "https://hb.imgix.net/980b644989f4ee0f6bb1391a1d25b85d36009b64.jpg?auto=compress,format&fit=crop&h=122&w=218&s=94e9d50289e848ab004069a63e7b6b55"
+            ],
+            "screenshot": [
+              "https://hb.imgix.net/c1d7555c9640c58fb15c72617dd8bc1131657ef3.jpg?auto=compress,format&fit=crop&h=425&w=741&s=652a244e67f00b09ba925358356b14d8",
+              "https://hb.imgix.net/793e5929e87b1f7a81ff0bf118b28f88455a375e.jpg?auto=compress,format&fit=crop&h=425&w=741&s=da5672ab3d911eae628b3c4060f931dd",
+              "https://hb.imgix.net/c254ea1eb118b65c554e7ff0ca89b029c3236e2c.jpg?auto=compress,format&fit=crop&h=425&w=741&s=f1259bbcdb77efc9f231d01aad002f92",
+              "https://hb.imgix.net/c55d7ab51ac91d004ac539c353eb5d404042cb1b.jpg?auto=compress,format&fit=crop&h=425&w=741&s=0b7ea084ef8473a5b57bfa7eff9cc03a",
+              "https://hb.imgix.net/7a588c590d8a3bd8a5c99cb0d6fee20cd947fe2a.jpg?auto=compress,format&fit=crop&h=425&w=741&s=a014a97e0d3d526593272892e572ce25",
+              "https://hb.imgix.net/ebea99fca3ecf57495833c70efb6f3f05e7bf439.jpg?auto=compress,format&fit=crop&h=425&w=741&s=26c3b8c29575e178d6ac95cd2079033a",
+              "https://hb.imgix.net/838183c426ed17b5185ee37a1e5881d7997412d4.jpg?auto=compress,format&fit=crop&h=425&w=741&s=8f321d4364afe3801ac5c3dade21401f",
+              "https://hb.imgix.net/50103cf93746dccfba95d71b9482d9c714916423.jpg?auto=compress,format&fit=crop&h=425&w=741&s=9bc3cb5716289c39ee2f423ee06c53ba",
+              "https://hb.imgix.net/5e23bb43d0cd4bd1af9c52002bbf5045204ac96e.jpg?auto=compress,format&fit=crop&h=425&w=741&s=200462e8d8c9594cc777053d58870ebd",
+              "https://hb.imgix.net/e88bf0827eb2d81a17eb736fc16e962ce72dad1a.jpg?auto=compress,format&fit=crop&h=425&w=741&s=64ad5ae96b3f49072f04a380db4d8fa6",
+              "https://hb.imgix.net/2d3fb8908192848e4460acad38cf197406231b11.jpg?auto=compress,format&fit=crop&h=425&w=741&s=22be02e4921a9615ecf7e64d83a4cff8",
+              "https://hb.imgix.net/980b644989f4ee0f6bb1391a1d25b85d36009b64.jpg?auto=compress,format&fit=crop&h=425&w=741&s=7c832e103e0621f0240655eff4069c5b"
+            ]
+          },
+          "image": "https://hb.imgix.net/9985fa197635d390996e1f92935e48c4461c8674.jpg?auto=compress,format&fit=clip&h=383&w=667&s=9982eae9b45a8045b1071f8f30b60004",
+          "display_item_machine_name": "hyperviolent",
+          "tpkds": [
+            {
+              "machine_name": "hyperviolent_choice_steam",
+              "custom_instructions_html": "<div style=\"text-align:center;\"><p><span style=\"color: #1695df;\">Complete the full redeem process to have instant and lifetime access to your game</span></p></div>",
+              "show_custom_instructions_in_user_libraries": false,
+              "key_type": "steam",
+              "visible": true,
+              "sold_out": false,
+              "is_partial_gift": false,
+              "display_separately": false,
+              "steam_app_id": 1409200,
+              "exclusive_countries": [],
+              "class": "steambutton",
+              "num_days_until_expired": -1,
+              "gamekey": null,
+              "disallowed_countries": [],
+              "direct_redeem": false,
+              "instructions_html": "<a href='https://support.humblebundle.com/hc/articles/204008710-How-To-Redeem-Steam-Keys' target='_blank'>Steam Instructions</a>",
+              "key_type_human_name": "Steam",
+              "human_name": "HYPERVIOLENT",
+              "preinstruction_text": "Copy this key into the Steam client, or click Redeem to redeem in-browser.",
+              "auto_expand": false,
+              "is_expired": false,
+              "partial_gift_enabled": true,
+              "disclaimer": "Steam will not provide extra giftable copies of games you already own."
+            }
+          ],
+          "user_rating": {
+            "steam_percent|decimal": 0.81,
+            "display_user_ratings": "steam_overall",
+            "review_text": "positive",
+            "steam_count": 44
+          },
+          "platforms": [
+            "windows"
+          ],
+          "more_information": null,
+          "msrp|money": {
+            "currency": "USD",
+            "amount": 14.99
+          },
+          "developers": [
+            "Terminist Arcade/Fulqrum Publishing"
+          ],
+          "system_requirements": "<b>Minimum:</b><br><br><b><u>Windows</u></b><br>Requires a 64-bit processor and operating system<br><strong>OS:</strong> Windows 10<br><strong>Processor:</strong> Intel i5-7400<br><strong>Memory:</strong> 8 GB RAM<br><strong>Graphics:</strong> Nvidia GTX 960<br><strong>DirectX:</strong> Version 9.0<br><strong>Storage:</strong> 2500 MB available space<br><strong>Sound Card:</strong> Yes<br><br><b>Recommended:</b><br><br><b><u>Windows</u></b><br>Requires a 64-bit processor and operating system<br><strong>OS:</strong> Windows 10<br><strong>Processor:</strong> Intel i7-7700<br><strong>Memory:</strong> 16 MB RAM<br><strong>Graphics:</strong> Nvidia GTX 1660<br><strong>DirectX:</strong> Version 9.0<br><strong>Storage:</strong> 2500 MB available space<br><strong>Sound Card:</strong> Yes<br><br><b>Supported Languages:</b> English",
+          "genres": [
+            "Action",
+            "Indie"
+          ]
+        }
+      }
+    },
+    "isActiveContent": false,
+    "title": "July 2024",
+    "productUrlPath": "july-2024",
+    "usesChoices": false,
+    "productMachineName": "july_2024_choice"
+  },
+  "baseSubscriptionPrice|money": {
+    "currency": "USD",
+    "amount": 11.99
+  },
+  "bannerOptions": null,
+  "exchangeRates": {
+    "USD|decimal": 1,
+    "AUD|decimal": 1.4702805087038875,
+    "CHF|decimal": 0.8492829439884549,
+    "IDR|decimal": 15495.65256606837,
+    "KRW|decimal": 1333.6339857490755,
+    "BGN|decimal": 1.7640479841255525,
+    "CNY|decimal": 7.088031027329305,
+    "ISK|decimal": 137.90926310092902,
+    "ILS|decimal": 3.6299269414629745,
+    "GBP|decimal": 0.7587264363669162,
+    "NZD|decimal": 1.597276089113376,
+    "DKK|decimal": 6.727608911337603,
+    "CAD|decimal": 1.347614323081086,
+    "TRY|decimal": 34.062505637232796,
+    "HUF|decimal": 354.04527825381075,
+    "PHP|decimal": 56.20005411743483,
+    "RON|decimal": 4.488860827996753,
+    "NOK|decimal": 10.518625417155226,
+    "RUB|decimal": 117.201,
+    "ZAR|decimal": 17.620456390367096,
+    "MYR|decimal": 4.320465409939569,
+    "INR|decimal": 83.83557319383061,
+    "THB|decimal": 33.86037701812934,
+    "MXN|decimal": 19.624875980878507,
+    "CZK|decimal": 22.576891855326057,
+    "BRL|decimal": 5.606115270136195,
+    "JPY|decimal": 145.38648868043654,
+    "PLN|decimal": 3.8570397763146027,
+    "EUR|decimal": 0.9019572472264815,
+    "SEK|decimal": 10.22413637593578,
+    "SGD|decimal": 1.302516460719762,
+    "HKD|decimal": 7.797871380896545
+  },
+  "csrfTokenInput": "<input type=\"hidden\" class=\"csrftoken\" name=\"_le_csrf_token\" value=\"MLQluaKlmk1-LGQN-1-1725284351\">",
+  "csrfToken": {},
+  "userSubscriptionPlan": null,
+  "user_max_reward_amount": 0,
+  "csrfFormKey": "_le_csrf_token"
+}
