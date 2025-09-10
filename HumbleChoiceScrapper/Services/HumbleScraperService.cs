@@ -1,10 +1,12 @@
 ﻿using HtmlAgilityPack;
+using HumbleChoiceScrapper.Helpers;
 using HumbleChoiceScrapper.Responses;
 using Microsoft.Extensions.Caching.Memory;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using System.Collections;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Net.Http;
 using System.Text;
 using System.Text.Json.Nodes;
@@ -29,7 +31,7 @@ namespace HumbleChoiceScrapper.Services
             _cache = cache;
         }
 
-        public async Task<GameResponse<GameInfo>> ScrapeHumbleChoiceAsync(string month)
+        public async Task<GameResponse<GameInfo>> ScrapeHumbleChoiceAsync(string month, bool shortFormat)
         {
             string cacheKey = $"humble_{month}";
             if (_cache.TryGetValue(cacheKey, out GameResponse<GameInfo> cacheResponse))
@@ -48,7 +50,44 @@ namespace HumbleChoiceScrapper.Services
             finally { _gate.Release(); }
 
             GameResponse<GameInfo> gameResponse = new GameResponse<GameInfo>();
+            string message = string.Empty;
 
+            var games = await GetMonthGames(month, shortFormat);
+
+            gameResponse = new GameResponse<GameInfo>(message, games);
+
+            // ---- cache to avoid traffic ----
+            var cacheEntryOptions = new MemoryCacheEntryOptions()
+                .SetAbsoluteExpiration(TimeSpan.FromMinutes(30))
+                .SetSlidingExpiration(TimeSpan.FromMinutes(10));
+
+            _cache.Set(cacheKey, gameResponse, cacheEntryOptions);
+
+            return gameResponse;
+        }
+
+        public async Task<GameResponse<GameInfo>> GetGameCollection(string startDate, string endDate, bool shortFormat)
+        {
+            GameResponse<GameInfo> gameResponse = new GameResponse<GameInfo>();
+            string message = string.Empty;
+
+            List<GameInfo> games = new List<GameInfo>();
+            var result = DateHelper.GetDatesBetween(startDate, endDate);
+
+            foreach (var date in result)
+            {
+                List<GameInfo> data = ScrapeHumbleChoiceAsync(date, shortFormat).Result.Data.ToList();
+                games.AddRange(data);
+            }
+
+            gameResponse = new GameResponse<GameInfo>(message, games);
+
+            return gameResponse;
+        }
+
+
+        private async Task<List<GameInfo>> GetMonthGames(string month, bool shortFormat)
+        {
             var url = string.Format(humble_url, month);
             var response = await _httpClient.GetStringAsync(url);
 
@@ -66,50 +105,57 @@ namespace HumbleChoiceScrapper.Services
 
             var jsonResponse = JObject.Parse(gameNodes[0].InnerText);
 
-            string message = string.Empty;
+            games = FindTpkdsObjects(jsonResponse, shortFormat);
 
-            games = FindTpkdsObjects(jsonResponse);            
-
-            gameResponse = new GameResponse<GameInfo>(message, games);
-
-
-            // ---- cache to avoid traffic ----
-            var cacheEntryOptions = new MemoryCacheEntryOptions()
-                .SetAbsoluteExpiration(TimeSpan.FromMinutes(30))
-                .SetSlidingExpiration(TimeSpan.FromMinutes(10));
-
-            _cache.Set(cacheKey, gameResponse, cacheEntryOptions);
-
-
-            return gameResponse;
-        }
-
-
-
-
-        static List<GameInfo> FindTpkdsObjects(JToken jsonToken)
-        {
-            var gameTokens = jsonToken.SelectTokens("$.contentChoiceOptions.contentChoiceData.game_data.*");
-
-            return gameTokens.Select(static game => new GameInfo
+            foreach (var game in games)
             {
-                Title = game["title"]?.ToString(),
-                Description = game["description"]?.ToString(),
-                Image = game["image"]?.ToString(),  // Mapeo de la imagen
-                Price = game["msrp|money"]?["amount"]?.ToObject<decimal>() ?? 0,
-                Platforms = game["platforms"]?.ToObject<List<string>>() ?? new List<string>(),
-                Genres = game["genres"]?.ToObject<List<string>>() ?? new List<string>(),
-                Developer = game["developers"]?.FirstOrDefault()?.ToString(),
-                UserRating = new UserRating
-                {
-                    SteamPercent = game["user_rating"]?["steam_percent|decimal"]?.ToObject<decimal>() ?? 0,
-                    ReviewText = game["user_rating"]?["review_text"]?.ToString(),
-                    SteamCount = game["user_rating"]?["steam_count"]?.ToObject<int>() ?? 0
-                }
-            }).ToList();
-        }
-    }
+                game.BundleDate = month;
+            }
 
+            return games;
+        }
+
+        private static List<GameInfo> FindTpkdsObjects(JToken jsonToken, bool shortFormat)
+        {
+            try
+            {
+                var gameTokens = jsonToken.SelectTokens("$.contentChoiceOptions.contentChoiceData.game_data.*");
+
+                if (shortFormat)
+                {
+                    return gameTokens.Select(static game => new GameInfo
+                    {
+                        Title = game["title"]?.ToString(),
+                        Image = game["image"]?.ToString()
+                    }
+                    ).ToList();
+                }
+                else
+                {
+                    return gameTokens.Select(static game => new GameInfo
+                    {
+                        Title = game["title"]?.ToString(),
+                        Description = game["description"]?.ToString(),
+                        Image = game["image"]?.ToString(),  // Mapeo de la imagen
+                        Price = game["msrp|money"]?["amount"]?.ToObject<decimal>() ?? 0,
+                        Platforms = game["platforms"]?.ToObject<List<string>>() ?? new List<string>(),
+                        Genres = game["genres"]?.ToObject<List<string>>() ?? new List<string>(),
+                        Developer = game["developers"]?.FirstOrDefault()?.ToString(),
+                        UserRating = new UserRating
+                        {
+                            SteamPercent = game["user_rating"]?["steam_percent|decimal"]?.ToObject<decimal>() ?? 0,
+                            ReviewText = game["user_rating"]?["review_text"]?.ToString(),
+                            SteamCount = game["user_rating"]?["steam_count"]?.ToObject<int>() ?? 0
+                        }
+                    }).ToList();
+                }
+            }
+            catch(Exception ex)
+            {
+                return new List<GameInfo>();
+            }
+        }
+    }   
 
     public class GameInfo
     {
@@ -121,6 +167,7 @@ namespace HumbleChoiceScrapper.Services
         public List<string> Genres { get; set; }
         public string Developer { get; set; }
         public UserRating UserRating { get; set; }
+        public string BundleDate { get; set; }
     }
 
     public class UserRating

@@ -18,10 +18,10 @@ namespace HumbleChoiceScrapper.Controllers
             _humbleScraperService = humbleScraperService;
         }
 
-        [HttpGet]
-        public async Task<ActionResult<GameResponse<GameInfo>>> Get(string month = "july-2024", bool showFullResponse = true)
+        [HttpGet("GetMothlyGames")]
+        public async Task<ActionResult<GameResponse<GameInfo>>> GetMothlyGames(string month = "july-2024", bool showShortFormat = true,bool showFullResponse = true)
         {
-            GameResponse<GameInfo> games = await _humbleScraperService.ScrapeHumbleChoiceAsync(month); //july-2024
+            GameResponse<GameInfo> games = await _humbleScraperService.ScrapeHumbleChoiceAsync(month, showShortFormat);
 
             if (games == null || games.Data.Count() == 0)
             {
@@ -34,6 +34,14 @@ namespace HumbleChoiceScrapper.Controllers
                     return NotFound("No games found.");
                 }
             }
+
+            return Ok(games);
+        }
+
+        [HttpGet("GetAllGamesBetweenDates")]
+        public async Task<ActionResult<GameResponse<GameInfo>>> GetAllGamesBetweenDates(string startDate = "july-2024", string endDate = "august-2024", bool showShortFormat = true)
+        {
+            GameResponse<GameInfo> games = await _humbleScraperService.GetGameCollection(startDate, endDate, showShortFormat);
 
             return Ok(games);
         }
