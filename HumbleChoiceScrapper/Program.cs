@@ -18,7 +18,7 @@ builder.Services.AddCors(options =>
     options.AddPolicy("AllowWebApp", policy =>
         policy
             // En dev poné tus puertos reales de front (Vite/CRA/Next)
-            .WithOrigins("http://localhost:5173", "http://localhost:3000", "https://localhost:44376/", "https://pproia.itch.io/humblebundlemonthlysorter")
+            .WithOrigins("http://localhost:5173", "http://localhost:3000", "https://localhost:44376", "https://pproia.itch.io/humblebundlemonthlysorter")
             .AllowAnyHeader()
             .AllowAnyMethod()
     // SIN credentials si no usás cookies
@@ -41,9 +41,8 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-
+app.UseCors("AllowWebApp");
 app.UseAuthorization();
-
 app.MapControllers();
 
 app.Run();
