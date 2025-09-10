@@ -88,23 +88,45 @@ namespace HumbleChoiceScrapper.Services
 
 
         static List<GameInfo> FindTpkdsObjects(JToken jsonToken)
-        {            
-            List<GameInfo> response = new List<GameInfo>();
+        {
+            var gameTokens = jsonToken.SelectTokens("$.contentChoiceOptions.contentChoiceData.game_data.*");
 
-            foreach (JToken title in jsonToken.SelectTokens("$..title"))
+            return gameTokens.Select(static game => new GameInfo
             {
-                response.Add(new GameInfo() { Title = title.ToString() });
-            }
-
-            return response;
+                Title = game["title"]?.ToString(),
+                Description = game["description"]?.ToString(),
+                Image = game["image"]?.ToString(),  // Mapeo de la imagen
+                Price = game["msrp|money"]?["amount"]?.ToObject<decimal>() ?? 0,
+                Platforms = game["platforms"]?.ToObject<List<string>>() ?? new List<string>(),
+                Genres = game["genres"]?.ToObject<List<string>>() ?? new List<string>(),
+                Developer = game["developers"]?.FirstOrDefault()?.ToString(),
+                UserRating = new UserRating
+                {
+                    SteamPercent = game["user_rating"]?["steam_percent|decimal"]?.ToObject<decimal>() ?? 0,
+                    ReviewText = game["user_rating"]?["review_text"]?.ToString(),
+                    SteamCount = game["user_rating"]?["steam_count"]?.ToObject<int>() ?? 0
+                }
+            }).ToList();
         }
     }
 
-       
 
     public class GameInfo
     {
         public string Title { get; set; }
         public string Description { get; set; }
+        public string Image { get; set; }
+        public decimal Price { get; set; }
+        public List<string> Platforms { get; set; }
+        public List<string> Genres { get; set; }
+        public string Developer { get; set; }
+        public UserRating UserRating { get; set; }
+    }
+
+    public class UserRating
+    {
+        public decimal SteamPercent { get; set; }
+        public string ReviewText { get; set; }
+        public int SteamCount { get; set; }
     }
 }
