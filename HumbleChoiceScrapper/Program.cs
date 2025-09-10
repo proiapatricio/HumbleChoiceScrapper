@@ -18,7 +18,7 @@ builder.Services.AddCors(options =>
     options.AddPolicy("AllowWebApp", policy =>
         policy
             // En dev poné tus puertos reales de front (Vite/CRA/Next)
-            .WithOrigins("http://localhost:5173", "http://localhost:3000", "https://tu-frontend.com")
+            .WithOrigins("http://localhost:5173", "http://localhost:3000", "https://pproia.itch.io/humblebundlemonthlysorter")
             .AllowAnyHeader()
             .AllowAnyMethod()
     // SIN credentials si no usás cookies
@@ -27,6 +27,11 @@ builder.Services.AddCors(options =>
 
 
 var app = builder.Build();
+// Configuración dinámica de URLs
+var port = Environment.GetEnvironmentVariable("PORT") ?? "5287";
+var urls = Environment.GetEnvironmentVariable("ASPNETCORE_URLS") ?? $"http://0.0.0.0:{port}";
+
+app.Urls.Add(urls);
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
