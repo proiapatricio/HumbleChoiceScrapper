@@ -39,42 +39,64 @@ namespace HumbleChoiceScrapper.Services
 
         public async Task<GameResponse<GameInfo>> ScrapeHumbleChoiceAsync(string month, bool shortFormat)
         {
+            
             string message = string.Empty;
             GameResponse<GameInfo> gameResponse = new GameResponse<GameInfo>();
+            List<GameInfo> games = new List<GameInfo>();
 
-            string cacheKey = $"humble_{month}";
-            // ---- try to get from cache ----           
-            if (_cacheHelper.TryGet(cacheKey, out gameResponse))
-            {
-                return gameResponse;
-            }
-
-            // ---- try to get from firebase ----
-            IEnumerable<GameInfo> savedGames = _firebaseService.GetGamesByMonthYearAsync(month).Result;
-            if (savedGames != null && savedGames.Count() > 0) { return new GameResponse<GameInfo>(message, savedGames); } 
-
-            // Cooldown
-            await _gate.WaitAsync();
             try
             {
-                var elapsed = DateTime.UtcNow - _last;
-                if (elapsed < Cooldown) await Task.Delay(Cooldown - elapsed);
-                _last = DateTime.UtcNow;
+                string cacheKey = $"humble_{month}";
+                // ---- try to get from cache ----           
+                if (_cacheHelper.TryGet(cacheKey, out gameResponse))
+                {
+                    return gameResponse;
+                }
+
+                try
+                {
+                    // ---- try to get from firebase ----
+                    IEnumerable<GameInfo> savedGames = _firebaseService.GetGamesByMonthYearAsync(month).Result;
+                    if (savedGames != null && savedGames.Count() > 0) { return new GameResponse<GameInfo>(message, savedGames); }
+                }
+                catch(Exception ex)
+                {
+                    message = ex.Message;
+                }
+
+                // Cooldown
+                await _gate.WaitAsync();
+                try
+                {
+                    var elapsed = DateTime.UtcNow - _last;
+                    if (elapsed < Cooldown) await Task.Delay(Cooldown - elapsed);
+                    _last = DateTime.UtcNow;
+                }
+                finally { _gate.Release(); }
+
+                games = await GetMonthGames(month, shortFormat);
+
+                try
+                {
+                    // ---- store to firebase ----
+                    foreach (var game in games)
+                    {
+                        await _firebaseService.AddGameAsync(game);
+                    }
+                }
+                catch (Exception ex)
+                {
+                    message = ex.Message;
+                }
+
+                // ---- cache to avoid traffic ----
+                _cacheHelper.Set(cacheKey, gameResponse);
             }
-            finally { _gate.Release(); }
-
-            var games = await GetMonthGames(month, shortFormat);
-
+            catch (Exception ex) 
+            { 
+                message = ex.Message;
+            }
             gameResponse = new GameResponse<GameInfo>(message, games);
-
-            // ---- store to firebase ----
-            foreach (var game in games)
-            {
-                await _firebaseService.AddGameAsync(game);
-            }
-
-            // ---- cache to avoid traffic ----
-            _cacheHelper.Set(cacheKey, gameResponse);
 
             return gameResponse;
         }
@@ -85,14 +107,21 @@ namespace HumbleChoiceScrapper.Services
             string message = string.Empty;
 
             List<GameInfo> games = new List<GameInfo>();
-            var result = DateHelper.GetDatesBetween(startDate, endDate);
 
-            foreach (var date in result)
+            try
             {
-                List<GameInfo> data = ScrapeHumbleChoiceAsync(date, shortFormat).Result.Data.ToList();
-                games.AddRange(data);
-            }
+                var result = DateHelper.GetDatesBetween(startDate, endDate);
 
+                foreach (var date in result)
+                {
+                    List<GameInfo> data = ScrapeHumbleChoiceAsync(date, shortFormat).Result.Data.ToList();
+                    games.AddRange(data);
+                }
+            }
+            catch (Exception ex) 
+            {
+                message = ex.Message;
+            }
             gameResponse = new GameResponse<GameInfo>(message, games);
 
             return gameResponse;

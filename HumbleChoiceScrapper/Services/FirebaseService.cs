@@ -156,7 +156,7 @@ namespace HumbleChoiceScrapper.Services
             {
                 throw new Exception($"Error getting games by year: {ex.Message}");
             }
-        }
+         }
 
         // Obtener juegos por múltiples años (RÁPIDO - solo los años necesarios)
         public async Task<List<GameInfo>> GetGamesByMultipleYearsAsync(params string[] years)
@@ -206,13 +206,13 @@ namespace HumbleChoiceScrapper.Services
                     return gameMonth == targetMonth;
                 }).ToList();
 
-                return filteredGames;
+                  return filteredGames;
             }
             catch (Exception ex)
             {
                 throw new Exception($"Error getting games by month-year: {ex.Message}");
             }
-        }
+               }
 
         // Obtener juegos por rango de fechas (OPTIMIZADO)
         public async Task<List<GameInfo>> GetGamesByMonthYearRangeAsync(string startMonthYear, string endMonthYear)
