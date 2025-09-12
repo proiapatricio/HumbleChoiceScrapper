@@ -1,6 +1,6 @@
 ﻿using HumbleChoiceScrapper.Models;
 
-namespace HumbleChoiceScrapper.Services.Interface
+namespace HumbleChoiceScrapper.Services.Interfaces
 {
     public interface IFirebaseService
     {

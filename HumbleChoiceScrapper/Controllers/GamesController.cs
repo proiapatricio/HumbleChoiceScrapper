@@ -1,5 +1,5 @@
 ﻿using HumbleChoiceScrapper.Models;
-using HumbleChoiceScrapper.Services.Interface;
+using HumbleChoiceScrapper.Services.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 
 namespace HumbleChoiceScrapper.Controllers

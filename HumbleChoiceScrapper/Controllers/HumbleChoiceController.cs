@@ -2,7 +2,7 @@
 using HumbleChoiceScrapper.Models;
 using HumbleChoiceScrapper.Responses;
 using HumbleChoiceScrapper.Services;
-using HumbleChoiceScrapper.Services.Interface;
+using HumbleChoiceScrapper.Services.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 
 namespace HumbleChoiceScrapper.Controllers

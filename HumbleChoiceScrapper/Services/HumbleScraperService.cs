@@ -1,8 +1,9 @@
 ﻿using HtmlAgilityPack;
 using HumbleChoiceScrapper.Helpers;
+using HumbleChoiceScrapper.Helpers.Interfaces;
 using HumbleChoiceScrapper.Models;
 using HumbleChoiceScrapper.Responses;
-using HumbleChoiceScrapper.Services.Interface;
+using HumbleChoiceScrapper.Services.Interfaces;
 using Microsoft.Extensions.Caching.Memory;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
@@ -20,26 +21,37 @@ namespace HumbleChoiceScrapper.Services
     public class HumbleScraperService : IHumbleScrapperService
     {
         private readonly HttpClient _httpClient;
-        private readonly IMemoryCache _cache;
+        private readonly ICacheHelper _cacheHelper;
+        private readonly IFirebaseService _firebaseService;
+
         private static readonly SemaphoreSlim _gate = new(1, 1);
         private static DateTime _last = DateTime.MinValue;
         private static readonly TimeSpan Cooldown = TimeSpan.FromSeconds(10);
 
         private const string humble_url = "https://www.humblebundle.com/membership/{0}";
 
-        public HumbleScraperService(HttpClient httpClient, IMemoryCache cache)
+        public HumbleScraperService(HttpClient httpClient, ICacheHelper cacheHelper, IFirebaseService firebaseService)
         {
             _httpClient = httpClient;
-            _cache = cache;
+            _cacheHelper = cacheHelper;
+            _firebaseService = firebaseService;
         }
 
         public async Task<GameResponse<GameInfo>> ScrapeHumbleChoiceAsync(string month, bool shortFormat)
         {
+            string message = string.Empty;
+            GameResponse<GameInfo> gameResponse = new GameResponse<GameInfo>();
+
             string cacheKey = $"humble_{month}";
-            if (_cache.TryGetValue(cacheKey, out GameResponse<GameInfo> cacheResponse))
+            // ---- try to get from cache ----           
+            if (_cacheHelper.TryGet(cacheKey, out gameResponse))
             {
-                return cacheResponse;
+                return gameResponse;
             }
+
+            // ---- try to get from firebase ----
+            IEnumerable<GameInfo> savedGames = _firebaseService.GetGamesByMonthYearAsync(month).Result;
+            if (savedGames != null && savedGames.Count() > 0) { return new GameResponse<GameInfo>(message, savedGames); } 
 
             // Cooldown
             await _gate.WaitAsync();
@@ -51,19 +63,18 @@ namespace HumbleChoiceScrapper.Services
             }
             finally { _gate.Release(); }
 
-            GameResponse<GameInfo> gameResponse = new GameResponse<GameInfo>();
-            string message = string.Empty;
-
             var games = await GetMonthGames(month, shortFormat);
 
             gameResponse = new GameResponse<GameInfo>(message, games);
 
-            // ---- cache to avoid traffic ----
-            var cacheEntryOptions = new MemoryCacheEntryOptions()
-                .SetAbsoluteExpiration(TimeSpan.FromMinutes(30))
-                .SetSlidingExpiration(TimeSpan.FromMinutes(10));
+            // ---- store to firebase ----
+            foreach (var game in games)
+            {
+                await _firebaseService.AddGameAsync(game);
+            }
 
-            _cache.Set(cacheKey, gameResponse, cacheEntryOptions);
+            // ---- cache to avoid traffic ----
+            _cacheHelper.Set(cacheKey, gameResponse);
 
             return gameResponse;
         }

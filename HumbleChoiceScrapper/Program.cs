@@ -1,7 +1,9 @@
 using HumbleChoiceScrapper.Services;
 using Google.Cloud.Firestore;
 using Firebase.Database;
-using HumbleChoiceScrapper.Services.Interface;
+using HumbleChoiceScrapper.Services.Interfaces;
+using HumbleChoiceScrapper.Helpers.Interfaces;
+using HumbleChoiceScrapper.Helpers;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -34,13 +36,10 @@ builder.Services.AddSingleton<FirebaseClient>(provider =>
 
 
 // Add services to the container.
-// Register the HumbleScraperService with HttpClient
+builder.Services.AddScoped<ICacheHelper, CacheHelper>();
+builder.Services.AddScoped<IFirebaseService, FirebaseService>();
 builder.Services.AddHttpClient<IHumbleScrapperService, HumbleScraperService>();
 builder.Services.AddMemoryCache();
-builder.Services.AddScoped<IFirebaseService, FirebaseService>();
-
-
-
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

@@ -1,7 +1,11 @@
 ﻿using Firebase.Database;
 using Firebase.Database.Query;
+using HumbleChoiceScrapper.Helpers;
+using HumbleChoiceScrapper.Helpers.Interfaces;
 using HumbleChoiceScrapper.Models;
-using HumbleChoiceScrapper.Services.Interface;
+using HumbleChoiceScrapper.Responses;
+using HumbleChoiceScrapper.Services.Interfaces;
+using Microsoft.Extensions.Caching.Memory;
 using Newtonsoft.Json;
 using System.Text.RegularExpressions;
 
@@ -11,6 +15,7 @@ namespace HumbleChoiceScrapper.Services
     public class FirebaseService : IFirebaseService
     {
         private readonly FirebaseClient _firebaseClient;
+        private readonly ICacheHelper _cacheHelper;
 
         // Mapeo de meses
         private readonly Dictionary<string, string> _monthMapping = new()
@@ -23,9 +28,10 @@ namespace HumbleChoiceScrapper.Services
         {"oct", "10"}, {"nov", "11"}, {"dec", "12"}
     };
 
-        public FirebaseService(FirebaseClient firebaseClient)
+        public FirebaseService(FirebaseClient firebaseClient, ICacheHelper cacheHelper)
         {
             _firebaseClient = firebaseClient;
+            _cacheHelper = cacheHelper;
         }
 
         // Extraer año del BundleDate
@@ -127,14 +133,23 @@ namespace HumbleChoiceScrapper.Services
         {
             try
             {
-                var gamesDict = await _firebaseClient
+                Dictionary<string, GameInfo> gamesDict = null;               
+
+                if (_cacheHelper.TryGet(year, out gamesDict))
+                {
+                    return gamesDict.Values.ToList();
+                }
+
+                gamesDict = await _firebaseClient
                     .Child("gamesByYear")
                     .Child(year)
-                    .OnceSingleAsync<Dictionary<string, GameInfo>>();
+                    .OnceSingleAsync<Dictionary<string, GameInfo>>();               
+
+                _cacheHelper.Set(year, gamesDict);
 
                 if (gamesDict == null || !gamesDict.Any())
                     return new List<GameInfo>();
-
+               
                 return gamesDict.Values.ToList();
             }
             catch (Exception ex)
@@ -430,7 +445,7 @@ namespace HumbleChoiceScrapper.Services
                 .Child(path)
                 .PostAsync(json);
             return result.Key;
-        }
+        } 
 
         public async Task PutAsync<T>(string path, T data)
         {
