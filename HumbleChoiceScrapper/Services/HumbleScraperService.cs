@@ -61,7 +61,7 @@ namespace HumbleChoiceScrapper.Services
                 }
                 catch(Exception ex)
                 {
-                    message = ex.Message;
+                    message += ex.Message;
                 }
 
                 // Cooldown
@@ -86,7 +86,7 @@ namespace HumbleChoiceScrapper.Services
                 }
                 catch (Exception ex)
                 {
-                    message = ex.Message;
+                    message += ex.Message;
                 }
 
                 // ---- cache to avoid traffic ----
@@ -94,7 +94,7 @@ namespace HumbleChoiceScrapper.Services
             }
             catch (Exception ex) 
             { 
-                message = ex.Message;
+                message += ex.Message;
             }
             gameResponse = new GameResponse<GameInfo>(message, games);
 
