@@ -1,9 +1,8 @@
 ﻿
+using HumbleChoiceScrapper.Models;
 using HumbleChoiceScrapper.Responses;
 using HumbleChoiceScrapper.Services;
 using Microsoft.AspNetCore.Mvc;
-using System.Collections.Generic;
-using System.Threading.Tasks;
 
 namespace HumbleChoiceScrapper.Controllers
 {
