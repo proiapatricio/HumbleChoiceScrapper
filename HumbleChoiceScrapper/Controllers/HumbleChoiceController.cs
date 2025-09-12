@@ -45,5 +45,13 @@ namespace HumbleChoiceScrapper.Controllers
 
             return Ok(games);
         }
+
+        [HttpGet("GetAllStoredGames")]
+        public async Task<ActionResult<GameResponse<GameInfo>>> GetAllStoredGames()
+        {
+            GameResponse<GameInfo> games = await _humbleScraperService.GetAllStoredGames();
+
+            return Ok(games);
+        }
     }
 }

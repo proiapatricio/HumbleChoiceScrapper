@@ -127,6 +127,27 @@ namespace HumbleChoiceScrapper.Services
             return gameResponse;
         }
 
+        public async Task<GameResponse<GameInfo>> GetAllStoredGames()
+        {
+            GameResponse<GameInfo> gameResponse = new GameResponse<GameInfo>();
+            string message = string.Empty;
+
+            List<GameInfo> games = new List<GameInfo>();
+
+            try
+            {
+                games = await _firebaseService.GetAllGamesAsync();
+            }
+            catch (Exception ex)
+            {
+                message = ex.Message;
+            }
+
+            gameResponse = new GameResponse<GameInfo>(message, games);
+
+            return gameResponse;
+        }
+
 
         private async Task<List<GameInfo>> GetMonthGames(string month, bool shortFormat)
         {

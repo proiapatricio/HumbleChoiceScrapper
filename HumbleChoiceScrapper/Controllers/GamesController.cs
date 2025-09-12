@@ -16,7 +16,7 @@ namespace HumbleChoiceScrapper.Controllers
         }
 
         // GET: api/games - Obtener todos los juegos (OPTIMIZADO)
-        [HttpGet]
+        [HttpGet("GetAllGames")]
         public async Task<ActionResult<List<GameInfo>>> GetAllGames()
         {
             try
@@ -35,7 +35,7 @@ namespace HumbleChoiceScrapper.Controllers
         }
 
         // GET: api/games/{id} - Obtener un juego específico
-        [HttpGet("{id}")]
+        [HttpGet("GetGame/{id}")]
         public async Task<ActionResult<GameInfo>> GetGame(string id)
         {
             try
@@ -61,7 +61,7 @@ namespace HumbleChoiceScrapper.Controllers
         }
 
         // GET: api/games/year/{year} - Obtener juegos por año (SÚPER RÁPIDO)
-        [HttpGet("year/{year}")]
+        [HttpGet("GetGamesByYear/{year}")]
         public async Task<ActionResult<List<GameInfo>>> GetGamesByYear(string year)
         {
             try
@@ -87,7 +87,7 @@ namespace HumbleChoiceScrapper.Controllers
         }
 
         // GET: api/games/years?years=2024,2023,2022 - Múltiples años
-        [HttpGet("years")]
+        [HttpGet("GetGamesByMultipleYears/years")]
         public async Task<ActionResult<List<GameInfo>>> GetGamesByMultipleYears([FromQuery] string years)
         {
             try
@@ -123,7 +123,7 @@ namespace HumbleChoiceScrapper.Controllers
         }
 
         // GET: api/games/month/september-2024 - Por mes específico
-        [HttpGet("month/{monthYear}")]
+        [HttpGet("GetGamesByMonthYear/{monthYear}")]
         public async Task<ActionResult> GetGamesByMonthYear(string monthYear)
         {
             try
@@ -149,7 +149,7 @@ namespace HumbleChoiceScrapper.Controllers
         }
 
         // GET: api/games/range?start=june-2023&end=march-2024 - Rango de fechas
-        [HttpGet("range")]
+        [HttpGet("GetGamesByMonthYearRange/range")]
         public async Task<ActionResult> GetGamesByMonthYearRange(
             [FromQuery] string start,
             [FromQuery] string end)
@@ -182,7 +182,7 @@ namespace HumbleChoiceScrapper.Controllers
         }
 
         // GET: api/games/stats - Estadísticas por año
-        [HttpGet("stats")]
+        [HttpGet("GetGameStats/stats")]
         public async Task<ActionResult> GetGameStats()
         {
             try
@@ -207,7 +207,7 @@ namespace HumbleChoiceScrapper.Controllers
         }
 
         // GET: api/games/periods - Períodos disponibles en formato "september-2024"
-        [HttpGet("periods")]
+        [HttpGet("GetAvailablePeriods/periods")]
         public async Task<ActionResult> GetAvailablePeriods()
         {
             try
@@ -230,7 +230,7 @@ namespace HumbleChoiceScrapper.Controllers
         }
 
         // GET: api/games/recent?months=6 - Juegos recientes
-        [HttpGet("recent")]
+        [HttpGet("GetRecentGames/recent")]
         public async Task<ActionResult> GetRecentGames([FromQuery] int months = 6)
         {
             try
@@ -259,7 +259,7 @@ namespace HumbleChoiceScrapper.Controllers
         }
 
         // POST: api/games - Crear un nuevo juego (automáticamente va al año correcto)
-        [HttpPost]
+        [HttpPost("CreateGame")]
         public async Task<ActionResult> CreateGame([FromBody] GameInfo game)
         {
             try
@@ -280,7 +280,7 @@ namespace HumbleChoiceScrapper.Controllers
         }
 
         // PUT: api/games/{id} - Actualizar un juego
-        [HttpPut("{id}")]
+        [HttpPut("UpdateGame/{id}")]
         public async Task<ActionResult> UpdateGame(string id, [FromBody] GameInfo game)
         {
             try
@@ -298,7 +298,7 @@ namespace HumbleChoiceScrapper.Controllers
         }
 
         // DELETE: api/games/{id} - Eliminar un juego
-        [HttpDelete("{id}")]
+        [HttpDelete("DeleteGame/{id}")]
         public async Task<ActionResult> DeleteGame(string id)
         {
             try
@@ -313,7 +313,7 @@ namespace HumbleChoiceScrapper.Controllers
         }
 
         // DELETE: api/games/{id}/year/{year} - Eliminar juego sabiendo el año (MÁS RÁPIDO)
-        [HttpDelete("{id}/year/{year}")]
+        [HttpDelete("DeleteGameByYear/{id}/year/{year}")]
         public async Task<ActionResult> DeleteGameByYear(string id, string year)
         {
             try
@@ -333,7 +333,7 @@ namespace HumbleChoiceScrapper.Controllers
         }
 
         // POST: api/games/bulk - Crear múltiples juegos de una vez (OPTIMIZADO)
-        [HttpPost("bulk")]
+        [HttpPost("CreateMultipleGames/bulk")]
         public async Task<ActionResult> CreateMultipleGames([FromBody] List<GameInfo> games)
         {
             try
@@ -372,7 +372,7 @@ namespace HumbleChoiceScrapper.Controllers
         }
 
         // POST: api/games/migrate - Migrar estructura anterior
-        [HttpPost("migrate")]
+        [HttpPost("MigrateToYearStructure/migrate")]
         public async Task<ActionResult> MigrateToYearStructure()
         {
             try
