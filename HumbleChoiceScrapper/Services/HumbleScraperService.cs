@@ -2,6 +2,7 @@
 using HumbleChoiceScrapper.Helpers;
 using HumbleChoiceScrapper.Models;
 using HumbleChoiceScrapper.Responses;
+using HumbleChoiceScrapper.Services.Interface;
 using Microsoft.Extensions.Caching.Memory;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
@@ -16,7 +17,7 @@ using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace HumbleChoiceScrapper.Services
 {
-    public class HumbleScraperService
+    public class HumbleScraperService : IHumbleScrapperService
     {
         private readonly HttpClient _httpClient;
         private readonly IMemoryCache _cache;
@@ -151,10 +152,10 @@ namespace HumbleChoiceScrapper.Services
                     }).ToList();
                 }
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 return new List<GameInfo>();
             }
         }
-    }   
+    }
 }

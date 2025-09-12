@@ -1,6 +1,7 @@
 using HumbleChoiceScrapper.Services;
 using Google.Cloud.Firestore;
 using Firebase.Database;
+using HumbleChoiceScrapper.Services.Interface;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -34,7 +35,7 @@ builder.Services.AddSingleton<FirebaseClient>(provider =>
 
 // Add services to the container.
 // Register the HumbleScraperService with HttpClient
-builder.Services.AddHttpClient<HumbleScraperService>();
+builder.Services.AddHttpClient<IHumbleScrapperService, HumbleScraperService>();
 builder.Services.AddMemoryCache();
 builder.Services.AddScoped<IFirebaseService, FirebaseService>();
 

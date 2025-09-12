@@ -2,6 +2,7 @@
 using HumbleChoiceScrapper.Models;
 using HumbleChoiceScrapper.Responses;
 using HumbleChoiceScrapper.Services;
+using HumbleChoiceScrapper.Services.Interface;
 using Microsoft.AspNetCore.Mvc;
 
 namespace HumbleChoiceScrapper.Controllers
@@ -10,9 +11,9 @@ namespace HumbleChoiceScrapper.Controllers
     [Route("api/[controller]")]
     public class HumbleChoiceController : ControllerBase
     {
-        private readonly HumbleScraperService _humbleScraperService;
+        private readonly IHumbleScrapperService _humbleScraperService;
 
-        public HumbleChoiceController(HumbleScraperService humbleScraperService)
+        public HumbleChoiceController(IHumbleScrapperService humbleScraperService)
         {
             _humbleScraperService = humbleScraperService;
         }
